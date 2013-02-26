@@ -1,12 +1,12 @@
 /*
-                    88          88
-                    88          88
-                    88          88
-,adPPYYba,  ,adPPYb,88  ,adPPYb,88  ,adPPYba,  8b,dPPYba,  ,adPPYba,
-""     `Y8 a8"    `Y88 a8"    `Y88 a8"     "8a 88P'   `"8a I8[    ""
-,adPPPPP88 8b       88 8b       88 8b       d8 88       88  `"Y8ba,
-88,    ,88 "8a,   ,d88 "8a,   ,d88 "8a,   ,a8" 88       88 aa    ]8I
-`"8bbdP"Y8  `"8bbdP"Y8  `"8bbdP"Y8  `"YbbdP"'  88       88 `"YbbdP"'
+	                    88          88
+	                    88          88
+	                    88          88
+	,adPPYYba,  ,adPPYb,88  ,adPPYb,88  ,adPPYba,  8b,dPPYba,  ,adPPYba,
+	""     `Y8 a8"    `Y88 a8"    `Y88 a8"     "8a 88P'   `"8a I8[    ""
+	,adPPPPP88 8b       88 8b       88 8b       d8 88       88  `"Y8ba,
+	88,    ,88 "8a,   ,d88 "8a,   ,d88 "8a,   ,a8" 88       88 aa    ]8I
+	`"8bbdP"Y8  `"8bbdP"Y8  `"8bbdP"Y8  `"YbbdP"'  88       88 `"YbbdP"'
 
 	openframeworks addons code completion for sublimetext
 	www.openframeworks.cc
@@ -41,6 +41,42 @@
 		//////////// ##ofxiPhone## ////////////////
 		//////////////////////////////
 		// ofAppiPhoneWindow
+		{ "trigger": "ofAppiPhoneWindow::disableSetupScreen"				,"contents": "${1:ofAppiPhoneWindow}.disableSetupScreen()"},
+		{ "trigger": "ofAppiPhoneWindow::enableAntiAliasing"				,"contents": "${1:ofAppiPhoneWindow}.enableAntiAliasing(${2:int samples})"},
+		{ "trigger": "ofAppiPhoneWindow::enableDepthBuffer"					,"contents": "${1:ofAppiPhoneWindow}.enableDepthBuffer()"},
+		{ "trigger": "ofAppiPhoneWindow::enableRetinaSupport"				,"contents": "${1:ofAppiPhoneWindow}.enableRetinaSupport()"},
+		{ "trigger": "ofAppiPhoneWindow::enableSetupScreen"					,"contents": "${1:ofAppiPhoneWindow}.enableSetupScreen()"},
+		{ "trigger": "ofAppiPhoneWindow::getAntiAliasingSampleCount"		,"contents": "${1:ofAppiPhoneWindow}.getAntiAliasingSampleCount()"},
+		{ "trigger": "ofAppiPhoneWindow::getFrameNum"						,"contents": "${1:ofAppiPhoneWindow}.getFrameNum()"},
+		{ "trigger": "ofAppiPhoneWindow::getFrameRate"						,"contents": "${1:ofAppiPhoneWindow}.getFrameRate()"},
+		{ "trigger": "ofAppiPhoneWindow::getHeight"							,"contents": "${1:ofAppiPhoneWindow}.getHeight()"},
+		{ "trigger": "ofAppiPhoneWindow::getInstance"						,"contents": "${1:ofAppiPhoneWindow}.getInstance()"},
+		{ "trigger": "ofAppiPhoneWindow::getLastFrameTime"					,"contents": "${1:ofAppiPhoneWindow}.getLastFrameTime()"},
+		{ "trigger": "ofAppiPhoneWindow::getOrientation"					,"contents": "${1:ofAppiPhoneWindow}.getOrientation()"},
+		{ "trigger": "ofAppiPhoneWindow::getScreenSize"						,"contents": "${1:ofAppiPhoneWindow}.getScreenSize()"},
+		{ "trigger": "ofAppiPhoneWindow::getWidth"							,"contents": "${1:ofAppiPhoneWindow}.getWidth()"},
+		{ "trigger": "ofAppiPhoneWindow::getWindowMode"						,"contents": "${1:ofAppiPhoneWindow}.getWindowMode()"},
+		{ "trigger": "ofAppiPhoneWindow::getWindowPosition"					,"contents": "${1:ofAppiPhoneWindow}.getWindowPosition()"},
+		{ "trigger": "ofAppiPhoneWindow::getWindowSize"						,"contents": "${1:ofAppiPhoneWindow}.getWindowSize()"},
+		{ "trigger": "ofAppiPhoneWindow::hideCursor"						,"contents": "${1:ofAppiPhoneWindow}.hideCursor()"},
+		{ "trigger": "ofAppiPhoneWindow::initializeWindow"					,"contents": "${1:ofAppiPhoneWindow}.initializeWindow()"},
+		{ "trigger": "ofAppiPhoneWindow::isAntiAliasingEnabled"				,"contents": "${1:ofAppiPhoneWindow}.isAntiAliasingEnabled()"},
+		{ "trigger": "ofAppiPhoneWindow::isDepthEnabled"					,"contents": "${1:ofAppiPhoneWindow}.isDepthEnabled()"},
+		{ "trigger": "ofAppiPhoneWindow::isRetinaSupported"					,"contents": "${1:ofAppiPhoneWindow}.isRetinaSupported()"},
+		{ "trigger": "ofAppiPhoneWindow::rotateXY"							,"contents": "${1:ofAppiPhoneWindow}.rotateXY(${2:float &x}, ${3:float &y})"},
+		{ "trigger": "ofAppiPhoneWindow::runAppViaInfiniteLoop"				,"contents": "${1:ofAppiPhoneWindow}.runAppViaInfiniteLoop(${2:ofBaseApp *appPtr})"},
+		{ "trigger": "ofAppiPhoneWindow::setFrameRate"						,"contents": "${1:ofAppiPhoneWindow}.setFrameRate(${2:float targetRate})"},
+		{ "trigger": "ofAppiPhoneWindow::setFullscreen"						,"contents": "${1:ofAppiPhoneWindow}.setFullscreen(${2:bool fullscreen})"},
+		{ "trigger": "ofAppiPhoneWindow::setOrientation"					,"contents": "${1:ofAppiPhoneWindow}.setOrientation(${2:ofOrientation orientation})"},
+		{ "trigger": "ofAppiPhoneWindow::setWindowPosition \t(xy)"			,"contents": "${1:ofAppiPhoneWindow}.setWindowPosition(${2:int x}, ${3:int y})"},
+		{ "trigger": "ofAppiPhoneWindow::setWindowShape \t(wh)"				,"contents": "${1:ofAppiPhoneWindow}.setWindowShape(${2:int w}, ${3:int h})"},
+		{ "trigger": "ofAppiPhoneWindow::setWindowTitle"					,"contents": "${1:ofAppiPhoneWindow}.setWindowTitle(${2:string title})"},
+		{ "trigger": "ofAppiPhoneWindow::setupOpenGL \t(wh)"				,"contents": "${1:ofAppiPhoneWindow}.setupOpenGL(${2:int w}, ${3:int h}, ${4:int screenMode})"},
+		{ "trigger": "ofAppiPhoneWindow::showCursor"						,"contents": "${1:ofAppiPhoneWindow}.showCursor()"},
+		{ "trigger": "ofAppiPhoneWindow::timerLoop"							,"contents": "${1:ofAppiPhoneWindow}.timerLoop()"},
+		{ "trigger": "ofAppiPhoneWindow::toggleFullscreen"					,"contents": "${1:ofAppiPhoneWindow}.toggleFullscreen()"},
+		{ "trigger": "ofAppiPhoneWindow::windowMode" 						,"contents": "${1:ofAppiPhoneWindow}.windowMode"},
+
 
 
 		//////////////////////////////
@@ -138,7 +174,51 @@
 		///////////////// ##ofxXmlSettings## ////////////////////
 		//////////////////////////////
 		// ofxXmlSettings
-		// ALREADY DONE IN ofLang
+		{ "trigger": "ofxXmlSettings::addAttribute \t(const string, const string, int, int)"                ,"contents": "${1:ofxXmlSettings}.addAttribute(${2:const string &tag}, ${3:const string &attribute}, ${4:int value}, ${5:int which=0})"},
+        { "trigger": "ofxXmlSettings::addAttribute \t(const string, const string, double, int)"             ,"contents": "${1:ofxXmlSettings}.addAttribute(${2:const string &tag}, ${3:const string &attribute}, ${4:double value}, ${5:int which=0})"},
+        { "trigger": "ofxXmlSettings::addAttribute \t(const string, const string, const string, int)"       ,"contents": "${1:ofxXmlSettings}.addAttribute(${2:const string &tag}, ${3:const string &attribute}, ${4:const string &value}, ${5:int which=0})"},
+        { "trigger": "ofxXmlSettings::addAttribute \t(const string, const string, int)"                     ,"contents": "${1:ofxXmlSettings}.addAttribute(${2:const string &tag}, ${3:const string &attribute}, ${4:int value})"},
+        { "trigger": "ofxXmlSettings::addAttribute \t(const string, const string, double)"                  ,"contents": "${1:ofxXmlSettings}.addAttribute(${2:const string &tag}, ${3:const string &attribute}, ${4:double value})"},
+        { "trigger": "ofxXmlSettings::addAttribute \t(const string, const string, const string)"            ,"contents": "${1:ofxXmlSettings}.addAttribute(${2:const string &tag}, ${3:const string &attribute}, ${4:const string &value})"},
+        { "trigger": "ofxXmlSettings::addTag \t(const string)"                                              ,"contents": "${1:ofxXmlSettings}.addTag(${2:const string &tag})"},
+        { "trigger": "ofxXmlSettings::addValue \t(const string, int)"                                       ,"contents": "${1:ofxXmlSettings}.addValue(${2:const string &tag}, ${3:int value})"},
+        { "trigger": "ofxXmlSettings::addValue \t(const string, double)"                                    ,"contents": "${1:ofxXmlSettings}.addValue(${2:const string &tag}, ${3:double value})"},
+        { "trigger": "ofxXmlSettings::addValue \t(const string, const string)"                              ,"contents": "${1:ofxXmlSettings}.addValue(${2:const string &tag}, ${3:const string &value})"},
+        { "trigger": "ofxXmlSettings::attributeExists \t(const string, const string, int)"                  ,"contents": "${1:ofxXmlSettings}.attributeExists(${2:const string &tag}, ${3:const string &attribute}, ${4:int which=0})"},
+        { "trigger": "ofxXmlSettings::clear"                                                                ,"contents": "${1:ofxXmlSettings}.clear()"},
+        { "trigger": "ofxXmlSettings::clearTagAttributes \t(const string, int)"                             ,"contents": "${1:ofxXmlSettings}.clearTagAttributes(${2:const string &tag}, ${3:int which=0})"},
+        { "trigger": "ofxXmlSettings::clearTagContents \t(const string, int)"                               ,"contents": "${1:ofxXmlSettings}.clearTagContents(${2:const string &tag}, ${3:int which=0})"},
+        { "trigger": "ofxXmlSettings::copyXmlToString \t(string)"                                           ,"contents": "${1:ofxXmlSettings}.copyXmlToString(${2:string &str})"},
+        { "trigger": "ofxXmlSettings::getAttribute \t(const string, const string, int, int)"                ,"contents": "${1:ofxXmlSettings}.getAttribute(${2:const string &tag}, ${3:const string &attribute}, ${4:int defaultValue}, ${5:int which=0})"},
+        { "trigger": "ofxXmlSettings::getAttribute \t(const string, const string, double, int)"             ,"contents": "${1:ofxXmlSettings}.getAttribute(${2:const string &tag}, ${3:const string &attribute}, ${4:double defaultValue}, ${5:int which=0})"},
+        { "trigger": "ofxXmlSettings::getAttribute \t(const string, const string, const string, int)"       ,"contents": "${1:ofxXmlSettings}.getAttribute(${2:const string &tag}, ${3:const string &attribute}, ${4:const string &defaultValue}, ${5:int which=0})"},
+        { "trigger": "ofxXmlSettings::getAttributeNames \t(const string, vector< string >, int)"            ,"contents": "${1:ofxXmlSettings}.getAttributeNames(${2:const string &tag}, ${3:vector< string > &outNames}, ${:4int which=0})"},
+        { "trigger": "ofxXmlSettings::getNumAttributes \t(const string, int)"                               ,"contents": "${1:ofxXmlSettings}.getNumAttributes(${2:const string &tag}, ${3:int which=0})"},
+        { "trigger": "ofxXmlSettings::getNumTags \t(const string)"                                          ,"contents": "${1:ofxXmlSettings}.getNumTags(${2:const string &tag})"},
+        { "trigger": "ofxXmlSettings::getPushLevel"                                                         ,"contents": "${1:ofxXmlSettings}.getPushLevel()"},
+        { "trigger": "ofxXmlSettings::getValue \t(const string, int , int)"                                 ,"contents": "${1:ofxXmlSettings}.getValue(${2:const string &tag}, ${3:int defaultValue}, ${4:int which=0})"},
+        { "trigger": "ofxXmlSettings::getValue \t(const string, double, int)"                               ,"contents": "${1:ofxXmlSettings}.getValue(${2:const string &tag}, ${3:double defaultValue}, ${4:int which=0})"},
+        { "trigger": "ofxXmlSettings::getValue \t(const string, const string, int)"                         ,"contents": "${1:ofxXmlSettings}.getValue(${2:const string &tag}, ${3:const string &defaultValue}, ${4:int which=0})"},
+        { "trigger": "ofxXmlSettings::loadFile \t(const string)"                                            ,"contents": "${1:ofxXmlSettings}.loadFile(${2:const string &xmlFile})"},
+        { "trigger": "ofxXmlSettings::loadFromBuffer \t(string)"                                            ,"contents": "${1:ofxXmlSettings}.loadFromBuffer({$2:string buffer})"},
+        { "trigger": "ofxXmlSettings::popTag"                                                               ,"contents": "${1:ofxXmlSettings}.popTag()"},
+        { "trigger": "ofxXmlSettings::pushTag \t(const string, int)"                                        ,"contents": "${1:ofxXmlSettings}.pushTag(${2:const string &tag}, ${3:int which=0})"},
+        { "trigger": "ofxXmlSettings::removeAttribute \t(const string, const string, int)"                  ,"contents": "${1:ofxXmlSettings}.removeAttribute(${2:const string &tag}, ${3:const string &attribute}, ${4:int which=0})"},
+        { "trigger": "ofxXmlSettings::removeTag \t(const string, int)"                                      ,"contents": "${1:ofxXmlSettings}.removeTag(${2:const string &tag}, ${3:int which=0})"},
+        { "trigger": "ofxXmlSettings::saveFile \t(const string)"                                            ,"contents": "${1:ofxXmlSettings}.saveFile(${2:const string &xmlFile})"},
+        { "trigger": "ofxXmlSettings::saveFile"                                                             ,"contents": "${1:ofxXmlSettings}.saveFile()"},
+        { "trigger": "ofxXmlSettings::setAttribute \t(const string, const string, int, int)"                ,"contents": "${1:ofxXmlSettings}.setAttribute($2{:const string &tag}, ${3:const string &attribute}, ${4:int value}, ${5:int which=0})"},
+        { "trigger": "ofxXmlSettings::setAttribute \t(const string, const string, double, int)"             ,"contents": "${1:ofxXmlSettings}.setAttribute($2{:const string &tag}, ${3:const string &attribute}, ${4:double value}, ${5:int which=0})"},
+        { "trigger": "ofxXmlSettings::setAttribute \t(const string, const string, const string, int)"       ,"contents": "${1:ofxXmlSettings}.setAttribute($2{:const string &tag}, ${3:const string &attribute}, ${4:const string &value}, ${5:int which=0})"},
+        { "trigger": "ofxXmlSettings::setAttribute \t(const string, const string, int)"                     ,"contents": "${1:ofxXmlSettings}.setAttribute($2{:const string &tag}, ${3:const string &attribute}, ${4:int value})"},
+        { "trigger": "ofxXmlSettings::setAttribute \t(const string, const string, double)"                  ,"contents": "${1:ofxXmlSettings}.setAttribute($2{:const string &tag}, ${3:const string &attribute}, ${4:double value})"},
+        { "trigger": "ofxXmlSettings::setAttribute \t(const string, const string, const string)"            ,"contents": "${1:ofxXmlSettings}.setAttribute($2{:const string &tag}, ${3:const string &attribute}, ${4:const string &value})"},
+        { "trigger": "ofxXmlSettings::setValue \t(const string, int, int)"                                  ,"contents": "${1:ofxXmlSettings}.setValue(${2:const string &tag}, ${3:int value}, ${4:int which=0})"},
+        { "trigger": "ofxXmlSettings::setValue \t(const string, double, int)"                               ,"contents": "${1:ofxXmlSettings}.setValue(${2:const string &tag}, ${3:double value}, ${4:int which=0})"},
+        { "trigger": "ofxXmlSettings::setValue \t(const string, const string, int)"                         ,"contents": "${1:ofxXmlSettings}.setValue(${2:const string &tag}, ${3:const string &value}, ${4:int which=0})"},
+        { "trigger": "ofxXmlSettings::tagExists \t(const string, int)"                                      ,"contents": "${1:ofxXmlSettings}.tagExists(${2:const string &tag}, ${3:int which=0})"},
+        { "trigger": "ofxXmlSettings::bDocLoaded"                                                           ,"contents": "${1:ofxXmlSettings}.bDocLoaded"},
+        { "trigger": "ofxXmlSettings::doc"                                                                  ,"contents": "${1:ofxXmlSettings}.doc"},
 
 		/////////////////// ##ofxOpenCv## ////////////////////
 		//////////////////////////////
@@ -207,6 +287,7 @@
 
 
 
+		{} // trailing object, don't remove
 		////////////////////// END ///////////////////////////////
 	]
 }
