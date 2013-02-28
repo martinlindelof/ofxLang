@@ -231,11 +231,24 @@
 		////////////// ##ofx3DModelLoader## ////////////////
 		//////////////////////////////
 		// ofx3DBaseLoader
-
+		{ "trigger": "ofx3DBaseLoader::draw"								,"contents": "${1:ofx3DBaseLoader}.draw()"},
+		{ "trigger": "ofx3DBaseLoader::loadModel \t(scale)"					,"contents": "${1:ofx3DBaseLoader}.loadModel(${2:string model}, ${3:float scale=1.0})"},
+		{ "trigger": "ofx3DBaseLoader::loadModel"							,"contents": "${1:ofx3DBaseLoader}.loadModel(${2:string model})"},
+		{ "trigger": "ofx3DBaseLoader::hasTexture"							,"contents": "${1:ofx3DBaseLoader}.hasTexture"},
 
 		//////////////////////////////
 		// ofx3DModelLoader
-
+		{ "trigger": "ofx3DModelLoader::draw"								,"contents": "${1:ofx3DModelLoader}.draw()"},
+		{ "trigger": "ofx3DModelLoader::loadModel"							,"contents": "${1:ofx3DModelLoader}.loadModel(${2:string modelName}, ${3:float scale=1.0})"},
+		{ "trigger": "ofx3DModelLoader::setPosition"						,"contents": "${1:ofx3DModelLoader}.setPosition(${2:float x}, ${3:float y}, ${4:float z})"},
+		{ "trigger": "ofx3DModelLoader::setRotation"						,"contents": "${1:ofx3DModelLoader}.setRotation(${2:int which}, ${3:float angle}, ${4:float rot_x}, ${5:float rot_y}, ${6:float r_z})"},
+		{ "trigger": "ofx3DModelLoader::setScale"							,"contents": "${1:ofx3DModelLoader}.setScale(${2:float x}, ${3:float y}, ${4:float z})"},
+		{ "trigger": "ofx3DModelLoader::model" 								,"contents": "${1:ofx3DModelLoader}.model"},
+		{ "trigger": "ofx3DModelLoader::numRotations" 						,"contents": "${1:ofx3DModelLoader}.numRotations"},
+		{ "trigger": "ofx3DModelLoader::pos" 								,"contents": "${1:ofx3DModelLoader}.pos"},
+		{ "trigger": "ofx3DModelLoader::rotAngle" 							,"contents": "${1:ofx3DModelLoader}.rotAngle"},
+		{ "trigger": "ofx3DModelLoader::rotAxis"							,"contents": "${1:ofx3DModelLoader}.rotAxis"},
+		{ "trigger": "ofx3DModelLoader::scale" 								,"contents": "${1:ofx3DModelLoader}.scale"},
 
 		///////////////// ##ofxAndroid## //////////////////
 		//////////////////////////////
