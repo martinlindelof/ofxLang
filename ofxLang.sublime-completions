@@ -1,298 +1,298 @@
 /*
-	                    88          88
-	                    88          88
-	                    88          88
-	,adPPYYba,  ,adPPYb,88  ,adPPYb,88  ,adPPYba,  8b,dPPYba,  ,adPPYba,
-	""     `Y8 a8"    `Y88 a8"    `Y88 a8"     "8a 88P'   `"8a I8[    ""
-	,adPPPPP88 8b       88 8b       88 8b       d8 88       88  `"Y8ba,
-	88,    ,88 "8a,   ,d88 "8a,   ,d88 "8a,   ,a8" 88       88 aa    ]8I
-	`"8bbdP"Y8  `"8bbdP"Y8  `"8bbdP"Y8  `"YbbdP"'  88       88 `"YbbdP"'
+                        88          88
+                        88          88
+                        88          88
+    ,adPPYYba,  ,adPPYb,88  ,adPPYb,88  ,adPPYba,  8b,dPPYba,  ,adPPYba,
+    ""     `Y8 a8"    `Y88 a8"    `Y88 a8"     "8a 88P'   `"8a I8[    ""
+    ,adPPPPP88 8b       88 8b       88 8b       d8 88       88  `"Y8ba,
+    88,    ,88 "8a,   ,d88 "8a,   ,d88 "8a,   ,a8" 88       88 aa    ]8I
+    `"8bbdP"Y8  `"8bbdP"Y8  `"8bbdP"Y8  `"YbbdP"'  88       88 `"YbbdP"'
 
-	openframeworks addons code completion for sublimetext
-	www.openframeworks.cc
-	www.sublimetext.com
+    openframeworks addons code completion for sublimetext
+    www.openframeworks.cc
+    www.sublimetext.com
 
-	2013-02-26, Martin Lindelöf.
+    2013-02-26, Martin Lindelöf.
 
 */
 
 {
-	"scope": "source.c++",
+    "scope": "source.c++",
 
-	"completions":
-	[
-		////////////////////// BEGIN ////////////////////////////
+    "completions":
+    [
+        ////////////////////// BEGIN ////////////////////////////
 
-		////////// ##ofxMultitouch## ///////////////
+        ////////// ##ofxMultitouch## ///////////////
 
-		//////////////////////////////
-		// ofxMultiTouchHandler
-
-
-		//////////////////////////////
-		// ofxMultiTouchListener
-
-		//////// ##ofxAssimpModelLoader## //////////
-
-		//////////////////////////////
-		// ofxAssimpModelLoader
+        //////////////////////////////
+        // ofxMultiTouchHandler
 
 
-		//////////// ##ofxiPhone## ////////////////
-		//////////////////////////////
-		// ofAppiPhoneWindow
-		{ "trigger": "ofAppiPhoneWindow::disableSetupScreen"				,"contents": "${1:ofAppiPhoneWindow}.disableSetupScreen()"},
-		{ "trigger": "ofAppiPhoneWindow::enableAntiAliasing"				,"contents": "${1:ofAppiPhoneWindow}.enableAntiAliasing(${2:int samples})"},
-		{ "trigger": "ofAppiPhoneWindow::enableDepthBuffer"					,"contents": "${1:ofAppiPhoneWindow}.enableDepthBuffer()"},
-		{ "trigger": "ofAppiPhoneWindow::enableRetinaSupport"				,"contents": "${1:ofAppiPhoneWindow}.enableRetinaSupport()"},
-		{ "trigger": "ofAppiPhoneWindow::enableSetupScreen"					,"contents": "${1:ofAppiPhoneWindow}.enableSetupScreen()"},
-		{ "trigger": "ofAppiPhoneWindow::getAntiAliasingSampleCount"		,"contents": "${1:ofAppiPhoneWindow}.getAntiAliasingSampleCount()"},
-		{ "trigger": "ofAppiPhoneWindow::getFrameNum"						,"contents": "${1:ofAppiPhoneWindow}.getFrameNum()"},
-		{ "trigger": "ofAppiPhoneWindow::getFrameRate"						,"contents": "${1:ofAppiPhoneWindow}.getFrameRate()"},
-		{ "trigger": "ofAppiPhoneWindow::getHeight"							,"contents": "${1:ofAppiPhoneWindow}.getHeight()"},
-		{ "trigger": "ofAppiPhoneWindow::getInstance"						,"contents": "${1:ofAppiPhoneWindow}.getInstance()"},
-		{ "trigger": "ofAppiPhoneWindow::getLastFrameTime"					,"contents": "${1:ofAppiPhoneWindow}.getLastFrameTime()"},
-		{ "trigger": "ofAppiPhoneWindow::getOrientation"					,"contents": "${1:ofAppiPhoneWindow}.getOrientation()"},
-		{ "trigger": "ofAppiPhoneWindow::getScreenSize"						,"contents": "${1:ofAppiPhoneWindow}.getScreenSize()"},
-		{ "trigger": "ofAppiPhoneWindow::getWidth"							,"contents": "${1:ofAppiPhoneWindow}.getWidth()"},
-		{ "trigger": "ofAppiPhoneWindow::getWindowMode"						,"contents": "${1:ofAppiPhoneWindow}.getWindowMode()"},
-		{ "trigger": "ofAppiPhoneWindow::getWindowPosition"					,"contents": "${1:ofAppiPhoneWindow}.getWindowPosition()"},
-		{ "trigger": "ofAppiPhoneWindow::getWindowSize"						,"contents": "${1:ofAppiPhoneWindow}.getWindowSize()"},
-		{ "trigger": "ofAppiPhoneWindow::hideCursor"						,"contents": "${1:ofAppiPhoneWindow}.hideCursor()"},
-		{ "trigger": "ofAppiPhoneWindow::initializeWindow"					,"contents": "${1:ofAppiPhoneWindow}.initializeWindow()"},
-		{ "trigger": "ofAppiPhoneWindow::isAntiAliasingEnabled"				,"contents": "${1:ofAppiPhoneWindow}.isAntiAliasingEnabled()"},
-		{ "trigger": "ofAppiPhoneWindow::isDepthEnabled"					,"contents": "${1:ofAppiPhoneWindow}.isDepthEnabled()"},
-		{ "trigger": "ofAppiPhoneWindow::isRetinaSupported"					,"contents": "${1:ofAppiPhoneWindow}.isRetinaSupported()"},
-		{ "trigger": "ofAppiPhoneWindow::rotateXY"							,"contents": "${1:ofAppiPhoneWindow}.rotateXY(${2:float &x}, ${3:float &y})"},
-		{ "trigger": "ofAppiPhoneWindow::runAppViaInfiniteLoop"				,"contents": "${1:ofAppiPhoneWindow}.runAppViaInfiniteLoop(${2:ofBaseApp *appPtr})"},
-		{ "trigger": "ofAppiPhoneWindow::setFrameRate"						,"contents": "${1:ofAppiPhoneWindow}.setFrameRate(${2:float targetRate})"},
-		{ "trigger": "ofAppiPhoneWindow::setFullscreen"						,"contents": "${1:ofAppiPhoneWindow}.setFullscreen(${2:bool fullscreen})"},
-		{ "trigger": "ofAppiPhoneWindow::setOrientation"					,"contents": "${1:ofAppiPhoneWindow}.setOrientation(${2:ofOrientation orientation})"},
-		{ "trigger": "ofAppiPhoneWindow::setWindowPosition \t(xy)"			,"contents": "${1:ofAppiPhoneWindow}.setWindowPosition(${2:int x}, ${3:int y})"},
-		{ "trigger": "ofAppiPhoneWindow::setWindowShape \t(wh)"				,"contents": "${1:ofAppiPhoneWindow}.setWindowShape(${2:int w}, ${3:int h})"},
-		{ "trigger": "ofAppiPhoneWindow::setWindowTitle"					,"contents": "${1:ofAppiPhoneWindow}.setWindowTitle(${2:string title})"},
-		{ "trigger": "ofAppiPhoneWindow::setupOpenGL \t(wh)"				,"contents": "${1:ofAppiPhoneWindow}.setupOpenGL(${2:int w}, ${3:int h}, ${4:int screenMode})"},
-		{ "trigger": "ofAppiPhoneWindow::showCursor"						,"contents": "${1:ofAppiPhoneWindow}.showCursor()"},
-		{ "trigger": "ofAppiPhoneWindow::timerLoop"							,"contents": "${1:ofAppiPhoneWindow}.timerLoop()"},
-		{ "trigger": "ofAppiPhoneWindow::toggleFullscreen"					,"contents": "${1:ofAppiPhoneWindow}.toggleFullscreen()"},
-		{ "trigger": "ofAppiPhoneWindow::windowMode" 						,"contents": "${1:ofAppiPhoneWindow}.windowMode"},
+        //////////////////////////////
+        // ofxMultiTouchListener
+
+        //////// ##ofxAssimpModelLoader## //////////
+
+        //////////////////////////////
+        // ofxAssimpModelLoader
+
+
+        //////////// ##ofxiPhone## ////////////////
+        //////////////////////////////
+        // ofAppiPhoneWindow
+        { "trigger": "ofAppiPhoneWindow::disableSetupScreen"                ,"contents": "${1:ofAppiPhoneWindow}.disableSetupScreen()"},
+        { "trigger": "ofAppiPhoneWindow::enableAntiAliasing"                ,"contents": "${1:ofAppiPhoneWindow}.enableAntiAliasing(${2:int samples})"},
+        { "trigger": "ofAppiPhoneWindow::enableDepthBuffer"                 ,"contents": "${1:ofAppiPhoneWindow}.enableDepthBuffer()"},
+        { "trigger": "ofAppiPhoneWindow::enableRetinaSupport"               ,"contents": "${1:ofAppiPhoneWindow}.enableRetinaSupport()"},
+        { "trigger": "ofAppiPhoneWindow::enableSetupScreen"                 ,"contents": "${1:ofAppiPhoneWindow}.enableSetupScreen()"},
+        { "trigger": "ofAppiPhoneWindow::getAntiAliasingSampleCount"        ,"contents": "${1:ofAppiPhoneWindow}.getAntiAliasingSampleCount()"},
+        { "trigger": "ofAppiPhoneWindow::getFrameNum"                       ,"contents": "${1:ofAppiPhoneWindow}.getFrameNum()"},
+        { "trigger": "ofAppiPhoneWindow::getFrameRate"                      ,"contents": "${1:ofAppiPhoneWindow}.getFrameRate()"},
+        { "trigger": "ofAppiPhoneWindow::getHeight"                         ,"contents": "${1:ofAppiPhoneWindow}.getHeight()"},
+        { "trigger": "ofAppiPhoneWindow::getInstance"                       ,"contents": "${1:ofAppiPhoneWindow}.getInstance()"},
+        { "trigger": "ofAppiPhoneWindow::getLastFrameTime"                  ,"contents": "${1:ofAppiPhoneWindow}.getLastFrameTime()"},
+        { "trigger": "ofAppiPhoneWindow::getOrientation"                    ,"contents": "${1:ofAppiPhoneWindow}.getOrientation()"},
+        { "trigger": "ofAppiPhoneWindow::getScreenSize"                     ,"contents": "${1:ofAppiPhoneWindow}.getScreenSize()"},
+        { "trigger": "ofAppiPhoneWindow::getWidth"                          ,"contents": "${1:ofAppiPhoneWindow}.getWidth()"},
+        { "trigger": "ofAppiPhoneWindow::getWindowMode"                     ,"contents": "${1:ofAppiPhoneWindow}.getWindowMode()"},
+        { "trigger": "ofAppiPhoneWindow::getWindowPosition"                 ,"contents": "${1:ofAppiPhoneWindow}.getWindowPosition()"},
+        { "trigger": "ofAppiPhoneWindow::getWindowSize"                     ,"contents": "${1:ofAppiPhoneWindow}.getWindowSize()"},
+        { "trigger": "ofAppiPhoneWindow::hideCursor"                        ,"contents": "${1:ofAppiPhoneWindow}.hideCursor()"},
+        { "trigger": "ofAppiPhoneWindow::initializeWindow"                  ,"contents": "${1:ofAppiPhoneWindow}.initializeWindow()"},
+        { "trigger": "ofAppiPhoneWindow::isAntiAliasingEnabled"             ,"contents": "${1:ofAppiPhoneWindow}.isAntiAliasingEnabled()"},
+        { "trigger": "ofAppiPhoneWindow::isDepthEnabled"                    ,"contents": "${1:ofAppiPhoneWindow}.isDepthEnabled()"},
+        { "trigger": "ofAppiPhoneWindow::isRetinaSupported"                 ,"contents": "${1:ofAppiPhoneWindow}.isRetinaSupported()"},
+        { "trigger": "ofAppiPhoneWindow::rotateXY"                          ,"contents": "${1:ofAppiPhoneWindow}.rotateXY(${2:float &x}, ${3:float &y})"},
+        { "trigger": "ofAppiPhoneWindow::runAppViaInfiniteLoop"             ,"contents": "${1:ofAppiPhoneWindow}.runAppViaInfiniteLoop(${2:ofBaseApp *appPtr})"},
+        { "trigger": "ofAppiPhoneWindow::setFrameRate"                      ,"contents": "${1:ofAppiPhoneWindow}.setFrameRate(${2:float targetRate})"},
+        { "trigger": "ofAppiPhoneWindow::setFullscreen"                     ,"contents": "${1:ofAppiPhoneWindow}.setFullscreen(${2:bool fullscreen})"},
+        { "trigger": "ofAppiPhoneWindow::setOrientation"                    ,"contents": "${1:ofAppiPhoneWindow}.setOrientation(${2:ofOrientation orientation})"},
+        { "trigger": "ofAppiPhoneWindow::setWindowPosition \t(xy)"          ,"contents": "${1:ofAppiPhoneWindow}.setWindowPosition(${2:int x}, ${3:int y})"},
+        { "trigger": "ofAppiPhoneWindow::setWindowShape \t(wh)"             ,"contents": "${1:ofAppiPhoneWindow}.setWindowShape(${2:int w}, ${3:int h})"},
+        { "trigger": "ofAppiPhoneWindow::setWindowTitle"                    ,"contents": "${1:ofAppiPhoneWindow}.setWindowTitle(${2:string title})"},
+        { "trigger": "ofAppiPhoneWindow::setupOpenGL \t(wh)"                ,"contents": "${1:ofAppiPhoneWindow}.setupOpenGL(${2:int w}, ${3:int h}, ${4:int screenMode})"},
+        { "trigger": "ofAppiPhoneWindow::showCursor"                        ,"contents": "${1:ofAppiPhoneWindow}.showCursor()"},
+        { "trigger": "ofAppiPhoneWindow::timerLoop"                         ,"contents": "${1:ofAppiPhoneWindow}.timerLoop()"},
+        { "trigger": "ofAppiPhoneWindow::toggleFullscreen"                  ,"contents": "${1:ofAppiPhoneWindow}.toggleFullscreen()"},
+        { "trigger": "ofAppiPhoneWindow::windowMode"                        ,"contents": "${1:ofAppiPhoneWindow}.windowMode"},
 
 
 
-		//////////////////////////////
-		// ofxiPhoneAlertsHandler
-		{ "trigger": "ofxiPhoneAlertsHandler::addListener"						,"contents": "${1:ofxiPhoneAlertsHandler}.addListener(${2:ofxiPhoneAlertsListener *o})"},
-		{ "trigger": "ofxiPhoneAlertsHandler::deviceOrientationChanged"			,"contents": "${1:ofxiPhoneAlertsHandler}.deviceOrientationChanged(${2:int newOrientation})"},
-		{ "trigger": "ofxiPhoneAlertsHandler::gotFocus"							,"contents": "${1:ofxiPhoneAlertsHandler}.gotFocus()"},
-		{ "trigger": "ofxiPhoneAlertsHandler::gotMemoryWarning"					,"contents": "${1:ofxiPhoneAlertsHandler}.gotMemoryWarning()"},
-		{ "trigger": "ofxiPhoneAlertsHandler::launchedWithURL"					,"contents": "${1:ofxiPhoneAlertsHandler}.launchedWithURL(string url)"},
-		{ "trigger": "ofxiPhoneAlertsHandler::lostFocus"						,"contents": "${1:ofxiPhoneAlertsHandler}.lostFocus()"},
-		{ "trigger": "ofxiPhoneAlertsHandler::removeListener"					,"contents": "${1:ofxiPhoneAlertsHandler}.removeListener(${2:ofxiPhoneAlertsListener *o})"},
+        //////////////////////////////
+        // ofxiPhoneAlertsHandler
+        { "trigger": "ofxiPhoneAlertsHandler::addListener"                      ,"contents": "${1:ofxiPhoneAlertsHandler}.addListener(${2:ofxiPhoneAlertsListener *o})"},
+        { "trigger": "ofxiPhoneAlertsHandler::deviceOrientationChanged"         ,"contents": "${1:ofxiPhoneAlertsHandler}.deviceOrientationChanged(${2:int newOrientation})"},
+        { "trigger": "ofxiPhoneAlertsHandler::gotFocus"                         ,"contents": "${1:ofxiPhoneAlertsHandler}.gotFocus()"},
+        { "trigger": "ofxiPhoneAlertsHandler::gotMemoryWarning"                 ,"contents": "${1:ofxiPhoneAlertsHandler}.gotMemoryWarning()"},
+        { "trigger": "ofxiPhoneAlertsHandler::launchedWithURL"                  ,"contents": "${1:ofxiPhoneAlertsHandler}.launchedWithURL(string url)"},
+        { "trigger": "ofxiPhoneAlertsHandler::lostFocus"                        ,"contents": "${1:ofxiPhoneAlertsHandler}.lostFocus()"},
+        { "trigger": "ofxiPhoneAlertsHandler::removeListener"                   ,"contents": "${1:ofxiPhoneAlertsHandler}.removeListener(${2:ofxiPhoneAlertsListener *o})"},
 
 
-		{ "trigger": "ofxiPhoneAlertsListener::deviceOrientationChanged"		,"contents": "${1:ofxiPhoneAlertsListener}.deviceOrientationChanged(${2:int newOrientation})"},
-		{ "trigger": "ofxiPhoneAlertsListener::gotFocus"						,"contents": "${1:ofxiPhoneAlertsListener}.gotFocus()"},
-		{ "trigger": "ofxiPhoneAlertsListener::gotMemoryWarning"				,"contents": "${1:ofxiPhoneAlertsListener}.gotMemoryWarning()"},
-		{ "trigger": "ofxiPhoneAlertsListener::launchedWithURL"					,"contents": "${1:ofxiPhoneAlertsListener}.launchedWithURL(${2:string url})"},
-		{ "trigger": "ofxiPhoneAlertsListener::lostFocus"						,"contents": "${1:ofxiPhoneAlertsListener}.lostFocus()"},
+        { "trigger": "ofxiPhoneAlertsListener::deviceOrientationChanged"        ,"contents": "${1:ofxiPhoneAlertsListener}.deviceOrientationChanged(${2:int newOrientation})"},
+        { "trigger": "ofxiPhoneAlertsListener::gotFocus"                        ,"contents": "${1:ofxiPhoneAlertsListener}.gotFocus()"},
+        { "trigger": "ofxiPhoneAlertsListener::gotMemoryWarning"                ,"contents": "${1:ofxiPhoneAlertsListener}.gotMemoryWarning()"},
+        { "trigger": "ofxiPhoneAlertsListener::launchedWithURL"                 ,"contents": "${1:ofxiPhoneAlertsListener}.launchedWithURL(${2:string url})"},
+        { "trigger": "ofxiPhoneAlertsListener::lostFocus"                       ,"contents": "${1:ofxiPhoneAlertsListener}.lostFocus()"},
 
-		//////////////////////////////
-		// ofxiPhoneAlertsListener
-		{ "trigger": "ofxiPhoneAlertsListener::deviceOrientationChanged"		,"contents": "${1:ofxiPhoneAlertsListener}.deviceOrientationChanged(${2:int newOrientation})"},
-		{ "trigger": "ofxiPhoneAlertsListener::gotFocus"						,"contents": "${1:ofxiPhoneAlertsListener}.gotFocus()"},
-		{ "trigger": "ofxiPhoneAlertsListener::gotMemoryWarning"				,"contents": "${1:ofxiPhoneAlertsListener}.gotMemoryWarning()"},
-		{ "trigger": "ofxiPhoneAlertsListener::launchedWithURL"					,"contents": "${1:ofxiPhoneAlertsListener}.launchedWithURL(${2:string url})"},
-		{ "trigger": "ofxiPhoneAlertsListener::lostFocus"						,"contents": "${1:ofxiPhoneAlertsListener}.lostFocus()"},
+        //////////////////////////////
+        // ofxiPhoneAlertsListener
+        { "trigger": "ofxiPhoneAlertsListener::deviceOrientationChanged"        ,"contents": "${1:ofxiPhoneAlertsListener}.deviceOrientationChanged(${2:int newOrientation})"},
+        { "trigger": "ofxiPhoneAlertsListener::gotFocus"                        ,"contents": "${1:ofxiPhoneAlertsListener}.gotFocus()"},
+        { "trigger": "ofxiPhoneAlertsListener::gotMemoryWarning"                ,"contents": "${1:ofxiPhoneAlertsListener}.gotMemoryWarning()"},
+        { "trigger": "ofxiPhoneAlertsListener::launchedWithURL"                 ,"contents": "${1:ofxiPhoneAlertsListener}.launchedWithURL(${2:string url})"},
+        { "trigger": "ofxiPhoneAlertsListener::lostFocus"                       ,"contents": "${1:ofxiPhoneAlertsListener}.lostFocus()"},
 
-		//////////////////////////////
-		// ofxiPhoneApp
-		{ "trigger": "ofxiPhoneApp::draw"										,"contents": "${1:ofxiPhoneApp}.draw()"},
-		{ "trigger": "ofxiPhoneApp::exit"										,"contents": "${1:ofxiPhoneApp}.exit()"},
-		{ "trigger": "ofxiPhoneApp::gotFocus"									,"contents": "${1:ofxiPhoneApp}.gotFocus()"},
-		{ "trigger": "ofxiPhoneApp::gotMemoryWarning"							,"contents": "${1:ofxiPhoneApp}.gotMemoryWarning()"},
-		{ "trigger": "ofxiPhoneApp::lostFocus"									,"contents": "${1:ofxiPhoneApp}.lostFocus()"},
-		{ "trigger": "ofxiPhoneApp::setup"										,"contents": "${1:ofxiPhoneApp}.setup()"},
-		{ "trigger": "ofxiPhoneApp::touchCancelled"								,"contents": "${1:ofxiPhoneApp}.touchCancelled(${2:int x}, ${3:int y}, ${4:int id})"},
-		{ "trigger": "ofxiPhoneApp::touchCancelled \t(&touch)"					,"contents": "${1:ofxiPhoneApp}.touchCancelled(${2:ofTouchEventArgs &touch})"},
-		{ "trigger": "ofxiPhoneApp::touchDoubleTap"								,"contents": "${1:ofxiPhoneApp}.touchDoubleTap(${2:int x}, ${3:int y}, ${4:int id})"},
-		{ "trigger": "ofxiPhoneApp::touchDoubleTap \t(&touch)"					,"contents": "${1:ofxiPhoneApp}.touchDoubleTap(${2:ofTouchEventArgs &touch})"},
-		{ "trigger": "ofxiPhoneApp::touchDown"									,"contents": "${1:ofxiPhoneApp}.touchDown(${2:int x}, ${3:int y}, ${4:int id})"},
-		{ "trigger": "ofxiPhoneApp::touchDown \t(&touch)"						,"contents": "${1:ofxiPhoneApp}.touchDown(${2:ofTouchEventArgs &touch})"},
-		{ "trigger": "ofxiPhoneApp::touchMoved"									,"contents": "${1:ofxiPhoneApp}.touchMoved(${2:int x}, ${3:int y}, ${4:int id})"},
-		{ "trigger": "ofxiPhoneApp::touchMoved \t(&touch)"						,"contents": "${1:ofxiPhoneApp}.touchMoved(${2:ofTouchEventArgs &touch})"},
-		{ "trigger": "ofxiPhoneApp::touchUp"									,"contents": "${1:ofxiPhoneApp}.touchUp(${2:int x}, ${3:int y}, ${4:int id})"},
-		{ "trigger": "ofxiPhoneApp::touchUp \t(&touch)"							,"contents": "${1:ofxiPhoneApp}.touchUp(${2:ofTouchEventArgs &touch})"},
-		{ "trigger": "ofxiPhoneApp::update"										,"contents": "${1:ofxiPhoneApp}.update()"},
+        //////////////////////////////
+        // ofxiPhoneApp
+        { "trigger": "ofxiPhoneApp::draw"                                       ,"contents": "${1:ofxiPhoneApp}.draw()"},
+        { "trigger": "ofxiPhoneApp::exit"                                       ,"contents": "${1:ofxiPhoneApp}.exit()"},
+        { "trigger": "ofxiPhoneApp::gotFocus"                                   ,"contents": "${1:ofxiPhoneApp}.gotFocus()"},
+        { "trigger": "ofxiPhoneApp::gotMemoryWarning"                           ,"contents": "${1:ofxiPhoneApp}.gotMemoryWarning()"},
+        { "trigger": "ofxiPhoneApp::lostFocus"                                  ,"contents": "${1:ofxiPhoneApp}.lostFocus()"},
+        { "trigger": "ofxiPhoneApp::setup"                                      ,"contents": "${1:ofxiPhoneApp}.setup()"},
+        { "trigger": "ofxiPhoneApp::touchCancelled"                             ,"contents": "${1:ofxiPhoneApp}.touchCancelled(${2:int x}, ${3:int y}, ${4:int id})"},
+        { "trigger": "ofxiPhoneApp::touchCancelled \t(&touch)"                  ,"contents": "${1:ofxiPhoneApp}.touchCancelled(${2:ofTouchEventArgs &touch})"},
+        { "trigger": "ofxiPhoneApp::touchDoubleTap"                             ,"contents": "${1:ofxiPhoneApp}.touchDoubleTap(${2:int x}, ${3:int y}, ${4:int id})"},
+        { "trigger": "ofxiPhoneApp::touchDoubleTap \t(&touch)"                  ,"contents": "${1:ofxiPhoneApp}.touchDoubleTap(${2:ofTouchEventArgs &touch})"},
+        { "trigger": "ofxiPhoneApp::touchDown"                                  ,"contents": "${1:ofxiPhoneApp}.touchDown(${2:int x}, ${3:int y}, ${4:int id})"},
+        { "trigger": "ofxiPhoneApp::touchDown \t(&touch)"                       ,"contents": "${1:ofxiPhoneApp}.touchDown(${2:ofTouchEventArgs &touch})"},
+        { "trigger": "ofxiPhoneApp::touchMoved"                                 ,"contents": "${1:ofxiPhoneApp}.touchMoved(${2:int x}, ${3:int y}, ${4:int id})"},
+        { "trigger": "ofxiPhoneApp::touchMoved \t(&touch)"                      ,"contents": "${1:ofxiPhoneApp}.touchMoved(${2:ofTouchEventArgs &touch})"},
+        { "trigger": "ofxiPhoneApp::touchUp"                                    ,"contents": "${1:ofxiPhoneApp}.touchUp(${2:int x}, ${3:int y}, ${4:int id})"},
+        { "trigger": "ofxiPhoneApp::touchUp \t(&touch)"                         ,"contents": "${1:ofxiPhoneApp}.touchUp(${2:ofTouchEventArgs &touch})"},
+        { "trigger": "ofxiPhoneApp::update"                                     ,"contents": "${1:ofxiPhoneApp}.update()"},
 
-		//////////////////////////////
-		// ofxiPhoneCoreLocation
-		{ "trigger": "ofxiPhoneCoreLocation::getAltitude"					,"contents": "${1:ofxiPhoneCoreLocation}.getAltitude()"},
-		{ "trigger": "ofxiPhoneCoreLocation::getAltitudeAccuracy"			,"contents": "${1:ofxiPhoneCoreLocation}.getAltitudeAccuracy()"},
-		{ "trigger": "ofxiPhoneCoreLocation::getCompassX"					,"contents": "${1:ofxiPhoneCoreLocation}.getCompassX()"},
-		{ "trigger": "ofxiPhoneCoreLocation::getCompassY"					,"contents": "${1:ofxiPhoneCoreLocation}.getCompassY()"},
-		{ "trigger": "ofxiPhoneCoreLocation::getCompassZ"					,"contents": "${1:ofxiPhoneCoreLocation}.getCompassZ()"},
-		{ "trigger": "ofxiPhoneCoreLocation::getDistMoved"					,"contents": "${1:ofxiPhoneCoreLocation}.getDistMoved()"},
-		{ "trigger": "ofxiPhoneCoreLocation::getHeadingAccuracy"			,"contents": "${1:ofxiPhoneCoreLocation}.getHeadingAccuracy()"},
-		{ "trigger": "ofxiPhoneCoreLocation::getLatitude"					,"contents": "${1:ofxiPhoneCoreLocation}.getLatitude()"},
-		{ "trigger": "ofxiPhoneCoreLocation::getLocationAccuracy"			,"contents": "${1:ofxiPhoneCoreLocation}.getLocationAccuracy()"},
-		{ "trigger": "ofxiPhoneCoreLocation::getLongitude"					,"contents": "${1:ofxiPhoneCoreLocation}.getLongitude()"},
-		{ "trigger": "ofxiPhoneCoreLocation::getMagneticHeading"			,"contents": "${1:ofxiPhoneCoreLocation}.getMagneticHeading()"},
-		{ "trigger": "ofxiPhoneCoreLocation::getTrueHeading"				,"contents": "${1:ofxiPhoneCoreLocation}.getTrueHeading()"},
-		{ "trigger": "ofxiPhoneCoreLocation::startHeading"					,"contents": "${1:ofxiPhoneCoreLocation}.startHeading()"},
-		{ "trigger": "ofxiPhoneCoreLocation::startLocation"					,"contents": "${1:ofxiPhoneCoreLocation}.startLocation()"},
-		{ "trigger": "ofxiPhoneCoreLocation::stopHeading"					,"contents": "${1:ofxiPhoneCoreLocation}.stopHeading()"},
-		{ "trigger": "ofxiPhoneCoreLocation::stopLocation"					,"contents": "${1:ofxiPhoneCoreLocation}.stopLocation()"},
+        //////////////////////////////
+        // ofxiPhoneCoreLocation
+        { "trigger": "ofxiPhoneCoreLocation::getAltitude"                   ,"contents": "${1:ofxiPhoneCoreLocation}.getAltitude()"},
+        { "trigger": "ofxiPhoneCoreLocation::getAltitudeAccuracy"           ,"contents": "${1:ofxiPhoneCoreLocation}.getAltitudeAccuracy()"},
+        { "trigger": "ofxiPhoneCoreLocation::getCompassX"                   ,"contents": "${1:ofxiPhoneCoreLocation}.getCompassX()"},
+        { "trigger": "ofxiPhoneCoreLocation::getCompassY"                   ,"contents": "${1:ofxiPhoneCoreLocation}.getCompassY()"},
+        { "trigger": "ofxiPhoneCoreLocation::getCompassZ"                   ,"contents": "${1:ofxiPhoneCoreLocation}.getCompassZ()"},
+        { "trigger": "ofxiPhoneCoreLocation::getDistMoved"                  ,"contents": "${1:ofxiPhoneCoreLocation}.getDistMoved()"},
+        { "trigger": "ofxiPhoneCoreLocation::getHeadingAccuracy"            ,"contents": "${1:ofxiPhoneCoreLocation}.getHeadingAccuracy()"},
+        { "trigger": "ofxiPhoneCoreLocation::getLatitude"                   ,"contents": "${1:ofxiPhoneCoreLocation}.getLatitude()"},
+        { "trigger": "ofxiPhoneCoreLocation::getLocationAccuracy"           ,"contents": "${1:ofxiPhoneCoreLocation}.getLocationAccuracy()"},
+        { "trigger": "ofxiPhoneCoreLocation::getLongitude"                  ,"contents": "${1:ofxiPhoneCoreLocation}.getLongitude()"},
+        { "trigger": "ofxiPhoneCoreLocation::getMagneticHeading"            ,"contents": "${1:ofxiPhoneCoreLocation}.getMagneticHeading()"},
+        { "trigger": "ofxiPhoneCoreLocation::getTrueHeading"                ,"contents": "${1:ofxiPhoneCoreLocation}.getTrueHeading()"},
+        { "trigger": "ofxiPhoneCoreLocation::startHeading"                  ,"contents": "${1:ofxiPhoneCoreLocation}.startHeading()"},
+        { "trigger": "ofxiPhoneCoreLocation::startLocation"                 ,"contents": "${1:ofxiPhoneCoreLocation}.startLocation()"},
+        { "trigger": "ofxiPhoneCoreLocation::stopHeading"                   ,"contents": "${1:ofxiPhoneCoreLocation}.stopHeading()"},
+        { "trigger": "ofxiPhoneCoreLocation::stopLocation"                  ,"contents": "${1:ofxiPhoneCoreLocation}.stopLocation()"},
 
-		//////////////////////////////
-		// ofxiPhoneImagePicker
-		{ "trigger": "ofxiPhoneImagePicker::getOrientation"					,"contents": "${1:ofxiPhoneImagePicker}.getOrientation()"},
-		{ "trigger": "ofxiPhoneImagePicker::loadPixels"						,"contents": "${1:ofxiPhoneImagePicker}.loadPixels()"},
-		{ "trigger": "ofxiPhoneImagePicker::openCamera"						,"contents": "${1:ofxiPhoneImagePicker}.openCamera(${2:int camera=0})"},
-		{ "trigger": "ofxiPhoneImagePicker::openLibrary"					,"contents": "${1:ofxiPhoneImagePicker}.openLibrary()"},
-		{ "trigger": "ofxiPhoneImagePicker::openSavedPhotos"				,"contents": "${1:ofxiPhoneImagePicker}.openSavedPhotos()"},
-		{ "trigger": "ofxiPhoneImagePicker::saveImage"						,"contents": "${1:ofxiPhoneImagePicker}.saveImage()"},
-		{ "trigger": "ofxiPhoneImagePicker::setMaxDimension"				,"contents": "${1:ofxiPhoneImagePicker}.setMaxDimension(${2:int _maxDimension})"},
-		{ "trigger": "ofxiPhoneImagePicker::bpp"							,"contents": "${1:ofxiPhoneImagePicker}.bpp"},
-		{ "trigger": "ofxiPhoneImagePicker::cameraIsAvailable"				,"contents": "${1:ofxiPhoneImagePicker}.cameraIsAvailable"},
-		{ "trigger": "ofxiPhoneImagePicker::glType"							,"contents": "${1:ofxiPhoneImagePicker}.glType"},
-		{ "trigger": "ofxiPhoneImagePicker::height"							,"contents": "${1:ofxiPhoneImagePicker}.height"},
-		{ "trigger": "ofxiPhoneImagePicker::imageUpdated"					,"contents": "${1:ofxiPhoneImagePicker}.imageUpdated"},
-		{ "trigger": "ofxiPhoneImagePicker::maxDimension"					,"contents": "${1:ofxiPhoneImagePicker}.maxDimension"},
-		{ "trigger": "ofxiPhoneImagePicker::photoLibraryIsAvailable"		,"contents": "${1:ofxiPhoneImagePicker}.photoLibraryIsAvailable"},
-		{ "trigger": "ofxiPhoneImagePicker::pixels"							,"contents": "${1:ofxiPhoneImagePicker}.pixels"},
-		{ "trigger": "ofxiPhoneImagePicker::pixelsAllocated"				,"contents": "${1:ofxiPhoneImagePicker}.pixelsAllocated"},
-		{ "trigger": "ofxiPhoneImagePicker::savedPhotosIsAvailable"			,"contents": "${1:ofxiPhoneImagePicker}.savedPhotosIsAvailable"},
-		{ "trigger": "ofxiPhoneImagePicker::texType"						,"contents": "${1:ofxiPhoneImagePicker}.texType"},
-		{ "trigger": "ofxiPhoneImagePicker::type"							,"contents": "${1:ofxiPhoneImagePicker}.type"},
-		{ "trigger": "ofxiPhoneImagePicker::width"							,"contents": "${1:ofxiPhoneImagePicker}.width"},
+        //////////////////////////////
+        // ofxiPhoneImagePicker
+        { "trigger": "ofxiPhoneImagePicker::getOrientation"                 ,"contents": "${1:ofxiPhoneImagePicker}.getOrientation()"},
+        { "trigger": "ofxiPhoneImagePicker::loadPixels"                     ,"contents": "${1:ofxiPhoneImagePicker}.loadPixels()"},
+        { "trigger": "ofxiPhoneImagePicker::openCamera"                     ,"contents": "${1:ofxiPhoneImagePicker}.openCamera(${2:int camera=0})"},
+        { "trigger": "ofxiPhoneImagePicker::openLibrary"                    ,"contents": "${1:ofxiPhoneImagePicker}.openLibrary()"},
+        { "trigger": "ofxiPhoneImagePicker::openSavedPhotos"                ,"contents": "${1:ofxiPhoneImagePicker}.openSavedPhotos()"},
+        { "trigger": "ofxiPhoneImagePicker::saveImage"                      ,"contents": "${1:ofxiPhoneImagePicker}.saveImage()"},
+        { "trigger": "ofxiPhoneImagePicker::setMaxDimension"                ,"contents": "${1:ofxiPhoneImagePicker}.setMaxDimension(${2:int _maxDimension})"},
+        { "trigger": "ofxiPhoneImagePicker::bpp"                            ,"contents": "${1:ofxiPhoneImagePicker}.bpp"},
+        { "trigger": "ofxiPhoneImagePicker::cameraIsAvailable"              ,"contents": "${1:ofxiPhoneImagePicker}.cameraIsAvailable"},
+        { "trigger": "ofxiPhoneImagePicker::glType"                         ,"contents": "${1:ofxiPhoneImagePicker}.glType"},
+        { "trigger": "ofxiPhoneImagePicker::height"                         ,"contents": "${1:ofxiPhoneImagePicker}.height"},
+        { "trigger": "ofxiPhoneImagePicker::imageUpdated"                   ,"contents": "${1:ofxiPhoneImagePicker}.imageUpdated"},
+        { "trigger": "ofxiPhoneImagePicker::maxDimension"                   ,"contents": "${1:ofxiPhoneImagePicker}.maxDimension"},
+        { "trigger": "ofxiPhoneImagePicker::photoLibraryIsAvailable"        ,"contents": "${1:ofxiPhoneImagePicker}.photoLibraryIsAvailable"},
+        { "trigger": "ofxiPhoneImagePicker::pixels"                         ,"contents": "${1:ofxiPhoneImagePicker}.pixels"},
+        { "trigger": "ofxiPhoneImagePicker::pixelsAllocated"                ,"contents": "${1:ofxiPhoneImagePicker}.pixelsAllocated"},
+        { "trigger": "ofxiPhoneImagePicker::savedPhotosIsAvailable"         ,"contents": "${1:ofxiPhoneImagePicker}.savedPhotosIsAvailable"},
+        { "trigger": "ofxiPhoneImagePicker::texType"                        ,"contents": "${1:ofxiPhoneImagePicker}.texType"},
+        { "trigger": "ofxiPhoneImagePicker::type"                           ,"contents": "${1:ofxiPhoneImagePicker}.type"},
+        { "trigger": "ofxiPhoneImagePicker::width"                          ,"contents": "${1:ofxiPhoneImagePicker}.width"},
 
-		//////////////////////////////
-		// ofxiPhoneKeyboard
-		{ "trigger": "ofxiPhoneKeyboard::getLabelText"						,"contents": "${1:ofxiPhoneKeyboard}.getLabelText()"},
-		{ "trigger": "ofxiPhoneKeyboard::getText"							,"contents": "${1:ofxiPhoneKeyboard}.getText()"},
-		{ "trigger": "ofxiPhoneKeyboard::isKeyboardShowing"					,"contents": "${1:ofxiPhoneKeyboard}.isKeyboardShowing()"},
-		{ "trigger": "ofxiPhoneKeyboard::openKeyboard"						,"contents": "${1:ofxiPhoneKeyboard}.openKeyboard()"},
-		{ "trigger": "ofxiPhoneKeyboard::setBgColor"						,"contents": "${1:ofxiPhoneKeyboard}.setBgColor(${2:int r}, ${3:int g}, ${4:int b}, ${5:int a})"},
-		{ "trigger": "ofxiPhoneKeyboard::setFontColor"						,"contents": "${1:ofxiPhoneKeyboard}.setFontColor(${2:int r}, ${3:int g}, ${4:int b}, ${5:int a})"},
-		{ "trigger": "ofxiPhoneKeyboard::setFontSize"						,"contents": "${1:ofxiPhoneKeyboard}.setFontSize(${2:int ptSize})"},
-		{ "trigger": "ofxiPhoneKeyboard::setPlaceholder"					,"contents": "${1:ofxiPhoneKeyboard}.setPlaceholder(${2:string _text})"},
-		{ "trigger": "ofxiPhoneKeyboard::setPosition"						,"contents": "${1:ofxiPhoneKeyboard}.setPosition(${2:int _x}, ${3:int _y})"},
-		{ "trigger": "ofxiPhoneKeyboard::setSize"							,"contents": "${1:ofxiPhoneKeyboard}.setSize(${2:int _w}, ${3:int _h})"},
-		{ "trigger": "ofxiPhoneKeyboard::setText"							,"contents": "${1:ofxiPhoneKeyboard}.setText(${2:string _text})"},
-		{ "trigger": "ofxiPhoneKeyboard::setVisible"						,"contents": "${1:ofxiPhoneKeyboard}.setVisible(${2:bool visible})"},
-		{ "trigger": "ofxiPhoneKeyboard::updateOrientation"					,"contents": "${1:ofxiPhoneKeyboard}.updateOrientation()"},
+        //////////////////////////////
+        // ofxiPhoneKeyboard
+        { "trigger": "ofxiPhoneKeyboard::getLabelText"                      ,"contents": "${1:ofxiPhoneKeyboard}.getLabelText()"},
+        { "trigger": "ofxiPhoneKeyboard::getText"                           ,"contents": "${1:ofxiPhoneKeyboard}.getText()"},
+        { "trigger": "ofxiPhoneKeyboard::isKeyboardShowing"                 ,"contents": "${1:ofxiPhoneKeyboard}.isKeyboardShowing()"},
+        { "trigger": "ofxiPhoneKeyboard::openKeyboard"                      ,"contents": "${1:ofxiPhoneKeyboard}.openKeyboard()"},
+        { "trigger": "ofxiPhoneKeyboard::setBgColor"                        ,"contents": "${1:ofxiPhoneKeyboard}.setBgColor(${2:int r}, ${3:int g}, ${4:int b}, ${5:int a})"},
+        { "trigger": "ofxiPhoneKeyboard::setFontColor"                      ,"contents": "${1:ofxiPhoneKeyboard}.setFontColor(${2:int r}, ${3:int g}, ${4:int b}, ${5:int a})"},
+        { "trigger": "ofxiPhoneKeyboard::setFontSize"                       ,"contents": "${1:ofxiPhoneKeyboard}.setFontSize(${2:int ptSize})"},
+        { "trigger": "ofxiPhoneKeyboard::setPlaceholder"                    ,"contents": "${1:ofxiPhoneKeyboard}.setPlaceholder(${2:string _text})"},
+        { "trigger": "ofxiPhoneKeyboard::setPosition"                       ,"contents": "${1:ofxiPhoneKeyboard}.setPosition(${2:int _x}, ${3:int _y})"},
+        { "trigger": "ofxiPhoneKeyboard::setSize"                           ,"contents": "${1:ofxiPhoneKeyboard}.setSize(${2:int _w}, ${3:int _h})"},
+        { "trigger": "ofxiPhoneKeyboard::setText"                           ,"contents": "${1:ofxiPhoneKeyboard}.setText(${2:string _text})"},
+        { "trigger": "ofxiPhoneKeyboard::setVisible"                        ,"contents": "${1:ofxiPhoneKeyboard}.setVisible(${2:bool visible})"},
+        { "trigger": "ofxiPhoneKeyboard::updateOrientation"                 ,"contents": "${1:ofxiPhoneKeyboard}.updateOrientation()"},
 
-		//////////////////////////////
-		// ofxiPhoneMapKitListener
-		{ "trigger": "ofxiPhoneMapKitListener::didFinishLoadingMap"			,"contents": "${1:ofxiPhoneMapKitListener}.didFinishLoadingMap()"},
-		{ "trigger": "ofxiPhoneMapKitListener::errorLoadingMap"				,"contents": "${1:ofxiPhoneMapKitListener}.errorLoadingMap(${2:string errorDescription})"},
-		{ "trigger": "ofxiPhoneMapKitListener::regionDidChange"				,"contents": "${1:ofxiPhoneMapKitListener}.regionDidChange(${2:bool animated})"},
-		{ "trigger": "ofxiPhoneMapKitListener::regionWillChange"			,"contents": "${1:ofxiPhoneMapKitListener}.regionWillChange(${2:bool animated})"},
-		{ "trigger": "ofxiPhoneMapKitListener::willStartLoadingMap"			,"contents": "${1:ofxiPhoneMapKitListener}.willStartLoadingMap()"},
-
-
-		///////////// ##ofxAccelerometer## /////////////////
-		//////////////////////////////
-		// ofxAccelerometerHandler
-		{ "trigger": "ofxAccelerometerHandler::exit"						,"contents": "${1:ofxAccelerometerHandler}.exit()"},
-		{ "trigger": "ofxAccelerometerHandler::getForce"					,"contents": "${1:ofxAccelerometerHandler}.getForce()"},
-		{ "trigger": "ofxAccelerometerHandler::getMatrix"					,"contents": "${1:ofxAccelerometerHandler}.getMatrix()"},
-		{ "trigger": "ofxAccelerometerHandler::getOrientation"				,"contents": "${1:ofxAccelerometerHandler}.getOrientation()"},
-		{ "trigger": "ofxAccelerometerHandler::getRawAcceleration"			,"contents": "${1:ofxAccelerometerHandler}.getRawAcceleration()"},
-		{ "trigger": "ofxAccelerometerHandler::setCallback"					,"contents": "${1:ofxAccelerometerHandler}.setCallback(${2:ofxAccelCB new_callback})"},
-		{ "trigger": "ofxAccelerometerHandler::setForceSmoothing"			,"contents": "${1:ofxAccelerometerHandler}.setForceSmoothing(${2:float forceSmoothing})"},
-		{ "trigger": "ofxAccelerometerHandler::setOrientationSmoothing"		,"contents": "${1:ofxAccelerometerHandler}.setOrientationSmoothing(${2:float orientationSmoothing})"},
-		{ "trigger": "ofxAccelerometerHandler::setup"						,"contents": "${1:ofxAccelerometerHandler}.setup()"},
-		{ "trigger": "ofxAccelerometerHandler::update" 						,"contents": "${1:ofxAccelerometerHandler}.update(${2:float x}, ${3:float y}, ${4:float z})"},
-		{ "trigger": "ofxAccelerometerHandler::accelChanged"				,"contents": "${1:ofxAccelerometerHandler}.accelChanged"},
+        //////////////////////////////
+        // ofxiPhoneMapKitListener
+        { "trigger": "ofxiPhoneMapKitListener::didFinishLoadingMap"         ,"contents": "${1:ofxiPhoneMapKitListener}.didFinishLoadingMap()"},
+        { "trigger": "ofxiPhoneMapKitListener::errorLoadingMap"             ,"contents": "${1:ofxiPhoneMapKitListener}.errorLoadingMap(${2:string errorDescription})"},
+        { "trigger": "ofxiPhoneMapKitListener::regionDidChange"             ,"contents": "${1:ofxiPhoneMapKitListener}.regionDidChange(${2:bool animated})"},
+        { "trigger": "ofxiPhoneMapKitListener::regionWillChange"            ,"contents": "${1:ofxiPhoneMapKitListener}.regionWillChange(${2:bool animated})"},
+        { "trigger": "ofxiPhoneMapKitListener::willStartLoadingMap"         ,"contents": "${1:ofxiPhoneMapKitListener}.willStartLoadingMap()"},
 
 
-		/////////////// ##ofxNetwork## /////////////////////
-		//////////////////////////////
-		// ofxTCPClient
+        ///////////// ##ofxAccelerometer## /////////////////
+        //////////////////////////////
+        // ofxAccelerometerHandler
+        { "trigger": "ofxAccelerometerHandler::exit"                        ,"contents": "${1:ofxAccelerometerHandler}.exit()"},
+        { "trigger": "ofxAccelerometerHandler::getForce"                    ,"contents": "${1:ofxAccelerometerHandler}.getForce()"},
+        { "trigger": "ofxAccelerometerHandler::getMatrix"                   ,"contents": "${1:ofxAccelerometerHandler}.getMatrix()"},
+        { "trigger": "ofxAccelerometerHandler::getOrientation"              ,"contents": "${1:ofxAccelerometerHandler}.getOrientation()"},
+        { "trigger": "ofxAccelerometerHandler::getRawAcceleration"          ,"contents": "${1:ofxAccelerometerHandler}.getRawAcceleration()"},
+        { "trigger": "ofxAccelerometerHandler::setCallback"                 ,"contents": "${1:ofxAccelerometerHandler}.setCallback(${2:ofxAccelCB new_callback})"},
+        { "trigger": "ofxAccelerometerHandler::setForceSmoothing"           ,"contents": "${1:ofxAccelerometerHandler}.setForceSmoothing(${2:float forceSmoothing})"},
+        { "trigger": "ofxAccelerometerHandler::setOrientationSmoothing"     ,"contents": "${1:ofxAccelerometerHandler}.setOrientationSmoothing(${2:float orientationSmoothing})"},
+        { "trigger": "ofxAccelerometerHandler::setup"                       ,"contents": "${1:ofxAccelerometerHandler}.setup()"},
+        { "trigger": "ofxAccelerometerHandler::update"                      ,"contents": "${1:ofxAccelerometerHandler}.update(${2:float x}, ${3:float y}, ${4:float z})"},
+        { "trigger": "ofxAccelerometerHandler::accelChanged"                ,"contents": "${1:ofxAccelerometerHandler}.accelChanged"},
 
 
-		//////////////////////////////
-		// ofxTCPManager
+        /////////////// ##ofxNetwork## /////////////////////
+        //////////////////////////////
+        // ofxTCPClient
 
 
-		//////////////////////////////
-		// ofxTCPServer
+        //////////////////////////////
+        // ofxTCPManager
 
 
-		//////////////////////////////
-		// ofxUDPManager
+        //////////////////////////////
+        // ofxTCPServer
 
 
-		////////////// ##ofxVectorGraphics## ///////////////
-		//////////////////////////////
-		// ofxVectorGraphics
-
-		////////////// ##ofx3DModelLoader## ////////////////
-		//////////////////////////////
-		// ofx3DBaseLoader
-		{ "trigger": "ofx3DBaseLoader::draw"								,"contents": "${1:ofx3DBaseLoader}.draw()"},
-		{ "trigger": "ofx3DBaseLoader::loadModel \t(scale)"					,"contents": "${1:ofx3DBaseLoader}.loadModel(${2:string model}, ${3:float scale=1.0})"},
-		{ "trigger": "ofx3DBaseLoader::loadModel"							,"contents": "${1:ofx3DBaseLoader}.loadModel(${2:string model})"},
-		{ "trigger": "ofx3DBaseLoader::hasTexture"							,"contents": "${1:ofx3DBaseLoader}.hasTexture"},
-
-		//////////////////////////////
-		// ofx3DModelLoader
-		{ "trigger": "ofx3DModelLoader::draw"								,"contents": "${1:ofx3DModelLoader}.draw()"},
-		{ "trigger": "ofx3DModelLoader::loadModel"							,"contents": "${1:ofx3DModelLoader}.loadModel(${2:string modelName}, ${3:float scale=1.0})"},
-		{ "trigger": "ofx3DModelLoader::setPosition"						,"contents": "${1:ofx3DModelLoader}.setPosition(${2:float x}, ${3:float y}, ${4:float z})"},
-		{ "trigger": "ofx3DModelLoader::setRotation"						,"contents": "${1:ofx3DModelLoader}.setRotation(${2:int which}, ${3:float angle}, ${4:float rot_x}, ${5:float rot_y}, ${6:float r_z})"},
-		{ "trigger": "ofx3DModelLoader::setScale"							,"contents": "${1:ofx3DModelLoader}.setScale(${2:float x}, ${3:float y}, ${4:float z})"},
-		{ "trigger": "ofx3DModelLoader::model" 								,"contents": "${1:ofx3DModelLoader}.model"},
-		{ "trigger": "ofx3DModelLoader::numRotations" 						,"contents": "${1:ofx3DModelLoader}.numRotations"},
-		{ "trigger": "ofx3DModelLoader::pos" 								,"contents": "${1:ofx3DModelLoader}.pos"},
-		{ "trigger": "ofx3DModelLoader::rotAngle" 							,"contents": "${1:ofx3DModelLoader}.rotAngle"},
-		{ "trigger": "ofx3DModelLoader::rotAxis"							,"contents": "${1:ofx3DModelLoader}.rotAxis"},
-		{ "trigger": "ofx3DModelLoader::scale" 								,"contents": "${1:ofx3DModelLoader}.scale"},
-
-		///////////////// ##ofxAndroid## //////////////////
-		//////////////////////////////
-		// ofAppAndroidWindow
+        //////////////////////////////
+        // ofxUDPManager
 
 
-		//////////////////////////////
-		// ofxAndroidApp
+        ////////////// ##ofxVectorGraphics## ///////////////
+        //////////////////////////////
+        // ofxVectorGraphics
+
+        ////////////// ##ofx3DModelLoader## ////////////////
+        //////////////////////////////
+        // ofx3DBaseLoader
+        { "trigger": "ofx3DBaseLoader::draw"                                ,"contents": "${1:ofx3DBaseLoader}.draw()"},
+        { "trigger": "ofx3DBaseLoader::loadModel \t(scale)"                 ,"contents": "${1:ofx3DBaseLoader}.loadModel(${2:string model}, ${3:float scale=1.0})"},
+        { "trigger": "ofx3DBaseLoader::loadModel"                           ,"contents": "${1:ofx3DBaseLoader}.loadModel(${2:string model})"},
+        { "trigger": "ofx3DBaseLoader::hasTexture"                          ,"contents": "${1:ofx3DBaseLoader}.hasTexture"},
+
+        //////////////////////////////
+        // ofx3DModelLoader
+        { "trigger": "ofx3DModelLoader::draw"                               ,"contents": "${1:ofx3DModelLoader}.draw()"},
+        { "trigger": "ofx3DModelLoader::loadModel"                          ,"contents": "${1:ofx3DModelLoader}.loadModel(${2:string modelName}, ${3:float scale=1.0})"},
+        { "trigger": "ofx3DModelLoader::setPosition"                        ,"contents": "${1:ofx3DModelLoader}.setPosition(${2:float x}, ${3:float y}, ${4:float z})"},
+        { "trigger": "ofx3DModelLoader::setRotation"                        ,"contents": "${1:ofx3DModelLoader}.setRotation(${2:int which}, ${3:float angle}, ${4:float rot_x}, ${5:float rot_y}, ${6:float r_z})"},
+        { "trigger": "ofx3DModelLoader::setScale"                           ,"contents": "${1:ofx3DModelLoader}.setScale(${2:float x}, ${3:float y}, ${4:float z})"},
+        { "trigger": "ofx3DModelLoader::model"                              ,"contents": "${1:ofx3DModelLoader}.model"},
+        { "trigger": "ofx3DModelLoader::numRotations"                       ,"contents": "${1:ofx3DModelLoader}.numRotations"},
+        { "trigger": "ofx3DModelLoader::pos"                                ,"contents": "${1:ofx3DModelLoader}.pos"},
+        { "trigger": "ofx3DModelLoader::rotAngle"                           ,"contents": "${1:ofx3DModelLoader}.rotAngle"},
+        { "trigger": "ofx3DModelLoader::rotAxis"                            ,"contents": "${1:ofx3DModelLoader}.rotAxis"},
+        { "trigger": "ofx3DModelLoader::scale"                              ,"contents": "${1:ofx3DModelLoader}.scale"},
+
+        ///////////////// ##ofxAndroid## //////////////////
+        //////////////////////////////
+        // ofAppAndroidWindow
 
 
-		//////////////////////////////
-		// ofxAndroidGPS
+        //////////////////////////////
+        // ofxAndroidApp
 
 
-		//////////////////////////////
-		// ofxAndroidSoundPlayer
+        //////////////////////////////
+        // ofxAndroidGPS
 
 
-		//////////////////////////////
-		// ofxAndroidSoundStream
+        //////////////////////////////
+        // ofxAndroidSoundPlayer
 
 
-		//////////////////////////////
-		// ofxAndroidVideoGrabber
+        //////////////////////////////
+        // ofxAndroidSoundStream
 
 
-		///////////////// ##ofxThreadedImageLoader## ////////////////
-		//////////////////////////////
-		// ofxThreadedImageLoader
-		{ "trigger": "ofxThreadedImageLoader::getEntryFromAsyncQueue"		,"contents": "${1:ofxThreadedImageLoader}.getEntryFromAsyncQueue(${2:string name})"},
-		{ "trigger": "ofxThreadedImageLoader::loadFromDisk"					,"contents": "${1:ofxThreadedImageLoader}.loadFromDisk(${2:ofImage *image}, ${3:string file})"},
-		{ "trigger": "ofxThreadedImageLoader::loadFromURL"					,"contents": "${1:ofxThreadedImageLoader}.loadFromURL(${2:ofImage *image}, ${3:string url})"},
-		{ "trigger": "ofxThreadedImageLoader::start"						,"contents": "${1:ofxThreadedImageLoader}.start()"},
-		{ "trigger": "ofxThreadedImageLoader::threadedFunction"				,"contents": "${1:ofxThreadedImageLoader}.threadedFunction()"},
-		{ "trigger": "ofxThreadedImageLoader::update"						,"contents": "${1:ofxThreadedImageLoader}.update(${2:ofEventArgs &a})"},
-		{ "trigger": "ofxThreadedImageLoader::urlResponse"					,"contents": "${1:ofxThreadedImageLoader}.urlResponse(${2:ofHttpResponse &response})"},
-		{ "trigger": "ofxThreadedImageLoader::images_async_loading"			,"contents": "${1:ofxThreadedImageLoader}.images_async_loading"},
-		{ "trigger": "ofxThreadedImageLoader::images_to_load"				,"contents": "${1:ofxThreadedImageLoader}.images_to_load"},
-		{ "trigger": "ofxThreadedImageLoader::images_to_update"				,"contents": "${1:ofxThreadedImageLoader}.images_to_update"},
+        //////////////////////////////
+        // ofxAndroidVideoGrabber
 
-		///////////////// ##ofxXmlSettings## ////////////////////
-		//////////////////////////////
-		// ofxXmlSettings
-		{ "trigger": "ofxXmlSettings::addAttribute \t(const string, const string, int, int)"                ,"contents": "${1:ofxXmlSettings}.addAttribute(${2:const string &tag}, ${3:const string &attribute}, ${4:int value}, ${5:int which=0})"},
+
+        ///////////////// ##ofxThreadedImageLoader## ////////////////
+        //////////////////////////////
+        // ofxThreadedImageLoader
+        { "trigger": "ofxThreadedImageLoader::getEntryFromAsyncQueue"       ,"contents": "${1:ofxThreadedImageLoader}.getEntryFromAsyncQueue(${2:string name})"},
+        { "trigger": "ofxThreadedImageLoader::loadFromDisk"                 ,"contents": "${1:ofxThreadedImageLoader}.loadFromDisk(${2:ofImage *image}, ${3:string file})"},
+        { "trigger": "ofxThreadedImageLoader::loadFromURL"                  ,"contents": "${1:ofxThreadedImageLoader}.loadFromURL(${2:ofImage *image}, ${3:string url})"},
+        { "trigger": "ofxThreadedImageLoader::start"                        ,"contents": "${1:ofxThreadedImageLoader}.start()"},
+        { "trigger": "ofxThreadedImageLoader::threadedFunction"             ,"contents": "${1:ofxThreadedImageLoader}.threadedFunction()"},
+        { "trigger": "ofxThreadedImageLoader::update"                       ,"contents": "${1:ofxThreadedImageLoader}.update(${2:ofEventArgs &a})"},
+        { "trigger": "ofxThreadedImageLoader::urlResponse"                  ,"contents": "${1:ofxThreadedImageLoader}.urlResponse(${2:ofHttpResponse &response})"},
+        { "trigger": "ofxThreadedImageLoader::images_async_loading"         ,"contents": "${1:ofxThreadedImageLoader}.images_async_loading"},
+        { "trigger": "ofxThreadedImageLoader::images_to_load"               ,"contents": "${1:ofxThreadedImageLoader}.images_to_load"},
+        { "trigger": "ofxThreadedImageLoader::images_to_update"             ,"contents": "${1:ofxThreadedImageLoader}.images_to_update"},
+
+        ///////////////// ##ofxXmlSettings## ////////////////////
+        //////////////////////////////
+        // ofxXmlSettings
+        { "trigger": "ofxXmlSettings::addAttribute \t(const string, const string, int, int)"                ,"contents": "${1:ofxXmlSettings}.addAttribute(${2:const string &tag}, ${3:const string &attribute}, ${4:int value}, ${5:int which=0})"},
         { "trigger": "ofxXmlSettings::addAttribute \t(const string, const string, double, int)"             ,"contents": "${1:ofxXmlSettings}.addAttribute(${2:const string &tag}, ${3:const string &attribute}, ${4:double value}, ${5:int which=0})"},
         { "trigger": "ofxXmlSettings::addAttribute \t(const string, const string, const string, int)"       ,"contents": "${1:ofxXmlSettings}.addAttribute(${2:const string &tag}, ${3:const string &attribute}, ${4:const string &value}, ${5:int which=0})"},
         { "trigger": "ofxXmlSettings::addAttribute \t(const string, const string, int)"                     ,"contents": "${1:ofxXmlSettings}.addAttribute(${2:const string &tag}, ${3:const string &attribute}, ${4:int value})"},
@@ -338,249 +338,249 @@
         { "trigger": "ofxXmlSettings::bDocLoaded"                                                           ,"contents": "${1:ofxXmlSettings}.bDocLoaded"},
         { "trigger": "ofxXmlSettings::doc"                                                                  ,"contents": "${1:ofxXmlSettings}.doc"},
 
-		/////////////////// ##ofxOpenCv## ////////////////////
-		//////////////////////////////
-		// ofxCvBlob
-		{ "trigger": "ofxCvBlob::draw"										,"contents": "${1:ofxCvBlob}.draw(${2:float x=0}, ${3:float y=0})"},
-		{ "trigger": "ofxCvBlob::area" 										,"contents": "${1:ofxCvBlob}.area"},
-		{ "trigger": "ofxCvBlob::boundingRect"								,"contents": "${1:ofxCvBlob}.boundingRect"},
-		{ "trigger": "ofxCvBlob::centroid"									,"contents": "${1:ofxCvBlob}.centroid"},
-		{ "trigger": "ofxCvBlob::hole"										,"contents": "${1:ofxCvBlob}.hole"},
-		{ "trigger": "ofxCvBlob::length"									,"contents": "${1:ofxCvBlob}.length"},
-		{ "trigger": "ofxCvBlob::nPts"										,"contents": "${1:ofxCvBlob}.nPts"},
-		{ "trigger": "ofxCvBlob::pts" 										,"contents": "${1:ofxCvBlob}.pts"},
+        /////////////////// ##ofxOpenCv## ////////////////////
+        //////////////////////////////
+        // ofxCvBlob
+        { "trigger": "ofxCvBlob::draw"                                      ,"contents": "${1:ofxCvBlob}.draw(${2:float x=0}, ${3:float y=0})"},
+        { "trigger": "ofxCvBlob::area"                                      ,"contents": "${1:ofxCvBlob}.area"},
+        { "trigger": "ofxCvBlob::boundingRect"                              ,"contents": "${1:ofxCvBlob}.boundingRect"},
+        { "trigger": "ofxCvBlob::centroid"                                  ,"contents": "${1:ofxCvBlob}.centroid"},
+        { "trigger": "ofxCvBlob::hole"                                      ,"contents": "${1:ofxCvBlob}.hole"},
+        { "trigger": "ofxCvBlob::length"                                    ,"contents": "${1:ofxCvBlob}.length"},
+        { "trigger": "ofxCvBlob::nPts"                                      ,"contents": "${1:ofxCvBlob}.nPts"},
+        { "trigger": "ofxCvBlob::pts"                                       ,"contents": "${1:ofxCvBlob}.pts"},
 
-		//////////////////////////////
-		// ofxCvColorImage
-		{ "trigger": "ofxCvColorImage::clear"								,"contents": "${1:ofxCvColorImage}.clear()"},
-		{ "trigger": "ofxCvColorImage::contrastStretch"						,"contents": "${1:ofxCvColorImage}.contrastStretch()"},
-		{ "trigger": "ofxCvColorImage::convertHsvToRgb"						,"contents": "${1:ofxCvColorImage}.convertHsvToRgb()"},
-		{ "trigger": "ofxCvColorImage::convertRgbToHsv"						,"contents": "${1:ofxCvColorImage}.convertRgbToHsv()"},
-		{ "trigger": "ofxCvColorImage::convertToGrayscalePlanarImage"		,"contents": "${1:ofxCvColorImage}.convertToGrayscalePlanarImage(${2:ofxCvGrayscaleImage &grayImage}, ${3:int whichPlane})"},
-		{ "trigger": "ofxCvColorImage::convertToGrayscalePlanarImages"		,"contents": "${1:ofxCvColorImage}.convertToGrayscalePlanarImages(${2:ofxCvGrayscaleImage &red}, ${3:ofxCvGrayscaleImage &green}, ${4:ofxCvGrayscaleImage &blue})"},
-		{ "trigger": "ofxCvColorImage::convertToRange" 						,"contents": "${1:ofxCvColorImage}.convertToRange(${2:float min}, ${3:float max})"},
-		{ "trigger": "ofxCvColorImage::resize"								,"contents": "${1:ofxCvColorImage}.resize(${2:int w}, ${3:int h})"},
-		{ "trigger": "ofxCvColorImage::scaleIntoMe"							,"contents": "${1:ofxCvColorImage}.scaleIntoMe(${2:ofxCvImage &mom}, ${3:int interpolationMethod=CV_INTER_NN})"},
-		{ "trigger": "ofxCvColorImage::set"									,"contents": "${1:ofxCvColorImage}.set(${2:float value})"},
-		{ "trigger": "ofxCvColorImage::set \t(rgb)"							,"contents": "${1:ofxCvColorImage}.set(${2:int valueR}, ${3:int valueG}, ${4:int valueB})"},
-		{ "trigger": "ofxCvColorImage::setFromGrayscalePlanarImages"		,"contents": "${1:ofxCvColorImage}.setFromGrayscalePlanarImages(${2:ofxCvGrayscaleImage &red}, ${3:ofxCvGrayscaleImage &green}, ${4:ofxCvGrayscaleImage &blue})"},
-		{ "trigger": "ofxCvColorImage::setFromPixels" 						,"contents": "${1:ofxCvColorImage}.setFromPixels(${2:const unsigned char *_pixels}, ${3:int w}, ${4:int h})"},
-		{ "trigger": "ofxCvColorImage::setRoiFromPixels" 					,"contents": "${1:ofxCvColorImage}.setRoiFromPixels(${2:const unsigned char *_pixels}, ${3:int w}, ${4:int h})"},
-
-
-		//////////////////////////////
-		// ofxCvContourFinder
-		{ "trigger": "ofxCvContourFinder::draw"								,"contents": "${1:ofxCvContourFinder}.draw()"},
-		{ "trigger": "ofxCvContourFinder::draw \t(xy)"						,"contents": "${1:ofxCvContourFinder}.draw(${2:float x}, ${3:float y})"},
-		{ "trigger": "ofxCvContourFinder::draw \t(xywh)"					,"contents": "${1:ofxCvContourFinder}.draw(${2:float x}, ${3:float y}, ${4:float w}, ${5:float h})"},
-		{ "trigger": "ofxCvContourFinder::draw \t(ofPoint)"					,"contents": "${1:ofxCvContourFinder}.draw(${2:const ofPoint &point})"},
-		{ "trigger": "ofxCvContourFinder::draw \t(ofRectangle)"				,"contents": "${1:ofxCvContourFinder}.draw(${2:const ofRectangle &rect})"},
-		{ "trigger": "ofxCvContourFinder::findContours"						,"contents": "${1:ofxCvContourFinder}.findContours(${2:ofxCvGrayscaleImage &input}, ${3:int minArea}, ${4:int maxArea}, ${5:int nConsidered}, ${6:bool bFindHoles}, ${7:bool bUseApproximation=true})"},
-		{ "trigger": "ofxCvContourFinder::getHeight"						,"contents": "${1:ofxCvContourFinder}.getHeight()"},
-		{ "trigger": "ofxCvContourFinder::getWidth"							,"contents": "${1:ofxCvContourFinder}.getWidth()"},
-		{ "trigger": "ofxCvContourFinder::resetAnchor"						,"contents": "${1:ofxCvContourFinder}.resetAnchor()"},
-		{ "trigger": "ofxCvContourFinder::setAnchorPercent"					,"contents": "${1:ofxCvContourFinder}.setAnchorPercent(${2:float xPct}, ${3:float yPct})"},
-		{ "trigger": "ofxCvContourFinder::setAnchorPoint"					,"contents": "${1:ofxCvContourFinder}.setAnchorPoint(${2:int x}, ${3:int y})"},
-		{ "trigger": "ofxCvContourFinder::blobs"							,"contents": "${1:ofxCvContourFinder}.blobs"},
-		{ "trigger": "ofxCvContourFinder::nBlobs" 							,"contents": "${1:ofxCvContourFinder}.nBlobs"},
+        //////////////////////////////
+        // ofxCvColorImage
+        { "trigger": "ofxCvColorImage::clear"                               ,"contents": "${1:ofxCvColorImage}.clear()"},
+        { "trigger": "ofxCvColorImage::contrastStretch"                     ,"contents": "${1:ofxCvColorImage}.contrastStretch()"},
+        { "trigger": "ofxCvColorImage::convertHsvToRgb"                     ,"contents": "${1:ofxCvColorImage}.convertHsvToRgb()"},
+        { "trigger": "ofxCvColorImage::convertRgbToHsv"                     ,"contents": "${1:ofxCvColorImage}.convertRgbToHsv()"},
+        { "trigger": "ofxCvColorImage::convertToGrayscalePlanarImage"       ,"contents": "${1:ofxCvColorImage}.convertToGrayscalePlanarImage(${2:ofxCvGrayscaleImage &grayImage}, ${3:int whichPlane})"},
+        { "trigger": "ofxCvColorImage::convertToGrayscalePlanarImages"      ,"contents": "${1:ofxCvColorImage}.convertToGrayscalePlanarImages(${2:ofxCvGrayscaleImage &red}, ${3:ofxCvGrayscaleImage &green}, ${4:ofxCvGrayscaleImage &blue})"},
+        { "trigger": "ofxCvColorImage::convertToRange"                      ,"contents": "${1:ofxCvColorImage}.convertToRange(${2:float min}, ${3:float max})"},
+        { "trigger": "ofxCvColorImage::resize"                              ,"contents": "${1:ofxCvColorImage}.resize(${2:int w}, ${3:int h})"},
+        { "trigger": "ofxCvColorImage::scaleIntoMe"                         ,"contents": "${1:ofxCvColorImage}.scaleIntoMe(${2:ofxCvImage &mom}, ${3:int interpolationMethod=CV_INTER_NN})"},
+        { "trigger": "ofxCvColorImage::set"                                 ,"contents": "${1:ofxCvColorImage}.set(${2:float value})"},
+        { "trigger": "ofxCvColorImage::set \t(rgb)"                         ,"contents": "${1:ofxCvColorImage}.set(${2:int valueR}, ${3:int valueG}, ${4:int valueB})"},
+        { "trigger": "ofxCvColorImage::setFromGrayscalePlanarImages"        ,"contents": "${1:ofxCvColorImage}.setFromGrayscalePlanarImages(${2:ofxCvGrayscaleImage &red}, ${3:ofxCvGrayscaleImage &green}, ${4:ofxCvGrayscaleImage &blue})"},
+        { "trigger": "ofxCvColorImage::setFromPixels"                       ,"contents": "${1:ofxCvColorImage}.setFromPixels(${2:const unsigned char *_pixels}, ${3:int w}, ${4:int h})"},
+        { "trigger": "ofxCvColorImage::setRoiFromPixels"                    ,"contents": "${1:ofxCvColorImage}.setRoiFromPixels(${2:const unsigned char *_pixels}, ${3:int w}, ${4:int h})"},
 
 
-		//////////////////////////////
-		// ofxCvFloatImage
-		{ "trigger": "ofxCvFloatImage::addWeighted"							,"contents": "${1:ofxCvFloatImage}.addWeighted(${2:ofxCvGrayscaleImage &mom}, ${3:float f})"},
-		{ "trigger": "ofxCvFloatImage::clear"								,"contents": "${1:ofxCvFloatImage}.clear()"},
-		{ "trigger": "ofxCvFloatImage::contrastStretch"						,"contents": "${1:ofxCvFloatImage}.contrastStretch()"},
-		{ "trigger": "ofxCvFloatImage::convertToRange"						,"contents": "${1:ofxCvFloatImage}.convertToRange(${2:float min}, ${3:float max})"},
-		{ "trigger": "ofxCvFloatImage::flagImageChanged"					,"contents": "${1:ofxCvFloatImage}.flagImageChanged()"},
-		{ "trigger": "ofxCvFloatImage::getFloatPixelsRef"					,"contents": "${1:ofxCvFloatImage}.getFloatPixelsRef()"},
-		{ "trigger": "ofxCvFloatImage::getNativeScaleMax"					,"contents": "${1:ofxCvFloatImage}.getNativeScaleMax()"},
-		{ "trigger": "ofxCvFloatImage::getNativeScaleMin"					,"contents": "${1:ofxCvFloatImage}.getNativeScaleMin()"},
-		{ "trigger": "ofxCvFloatImage::getPixelsAsFloats"					,"contents": "${1:ofxCvFloatImage}.getPixelsAsFloats()"},
-		{ "trigger": "ofxCvFloatImage::getRoiFloatPixelsRef"				,"contents": "${1:ofxCvFloatImage}.getRoiFloatPixelsRef()"},
-		{ "trigger": "ofxCvFloatImage::getRoiPixelsAsFloats"				,"contents": "${1:ofxCvFloatImage}.getRoiPixelsAsFloats()"},
-		{ "trigger": "ofxCvFloatImage::scaleIntoMe"							,"contents": "${1:ofxCvFloatImage}.scaleIntoMe(${2:ofxCvImage &mom}, ${3:int interpolationMethod=CV_INTER_NN})"},
-		{ "trigger": "ofxCvFloatImage::set"									,"contents": "${1:ofxCvFloatImage}.set(${2:float value})"},
-		{ "trigger": "ofxCvFloatImage::setFromPixels \t(char)"				,"contents": "${1:ofxCvFloatImage}.setFromPixels(${2:const unsigned char *_pixels}, ${3:int w}, ${4:int h})"},
-		{ "trigger": "ofxCvFloatImage::setFromPixels \t(float)"				,"contents": "${1:ofxCvFloatImage}.setFromPixels(${2:float *_pixels}, ${3:int w}, ${4:int h})"},
-		{ "trigger": "ofxCvFloatImage::setNativeScale"						,"contents": "${1:ofxCvFloatImage}.setNativeScale(${2:float _scaleMin}, ${3:float _scaleMax})"},
-		{ "trigger": "ofxCvFloatImage::setRoiFromPixels \t(char)"			,"contents": "${1:ofxCvFloatImage}.setRoiFromPixels(${2:const unsigned char *_pixels}, ${3:int w}, ${4:int h})"},
-		{ "trigger": "ofxCvFloatImage::setRoiFromPixels \t(float)"			,"contents": "${1:ofxCvFloatImage}.setRoiFromPixels(${2:float *_pixels}, ${3:int w}, ${4:int h})"},
+        //////////////////////////////
+        // ofxCvContourFinder
+        { "trigger": "ofxCvContourFinder::draw"                             ,"contents": "${1:ofxCvContourFinder}.draw()"},
+        { "trigger": "ofxCvContourFinder::draw \t(xy)"                      ,"contents": "${1:ofxCvContourFinder}.draw(${2:float x}, ${3:float y})"},
+        { "trigger": "ofxCvContourFinder::draw \t(xywh)"                    ,"contents": "${1:ofxCvContourFinder}.draw(${2:float x}, ${3:float y}, ${4:float w}, ${5:float h})"},
+        { "trigger": "ofxCvContourFinder::draw \t(ofPoint)"                 ,"contents": "${1:ofxCvContourFinder}.draw(${2:const ofPoint &point})"},
+        { "trigger": "ofxCvContourFinder::draw \t(ofRectangle)"             ,"contents": "${1:ofxCvContourFinder}.draw(${2:const ofRectangle &rect})"},
+        { "trigger": "ofxCvContourFinder::findContours"                     ,"contents": "${1:ofxCvContourFinder}.findContours(${2:ofxCvGrayscaleImage &input}, ${3:int minArea}, ${4:int maxArea}, ${5:int nConsidered}, ${6:bool bFindHoles}, ${7:bool bUseApproximation=true})"},
+        { "trigger": "ofxCvContourFinder::getHeight"                        ,"contents": "${1:ofxCvContourFinder}.getHeight()"},
+        { "trigger": "ofxCvContourFinder::getWidth"                         ,"contents": "${1:ofxCvContourFinder}.getWidth()"},
+        { "trigger": "ofxCvContourFinder::resetAnchor"                      ,"contents": "${1:ofxCvContourFinder}.resetAnchor()"},
+        { "trigger": "ofxCvContourFinder::setAnchorPercent"                 ,"contents": "${1:ofxCvContourFinder}.setAnchorPercent(${2:float xPct}, ${3:float yPct})"},
+        { "trigger": "ofxCvContourFinder::setAnchorPoint"                   ,"contents": "${1:ofxCvContourFinder}.setAnchorPoint(${2:int x}, ${3:int y})"},
+        { "trigger": "ofxCvContourFinder::blobs"                            ,"contents": "${1:ofxCvContourFinder}.blobs"},
+        { "trigger": "ofxCvContourFinder::nBlobs"                           ,"contents": "${1:ofxCvContourFinder}.nBlobs"},
 
 
-		//////////////////////////////
-		// ofxCvGrayscaleImage
-		{ "trigger": "ofxCvGrayscaleImage::absDiff"										,"contents": "${1:ofxCvGrayscaleImage}.absDiff(${2:ofxCvGrayscaleImage &mom})"},
-		{ "trigger": "ofxCvGrayscaleImage::absDiff \t(two images)"						,"contents": "${1:ofxCvGrayscaleImage}.absDiff(${2:ofxCvGrayscaleImage &mom}, ${3:ofxCvGrayscaleImage &dad})"},
-		{ "trigger": "ofxCvGrayscaleImage::adaptiveThreshold"							,"contents": "${1:ofxCvGrayscaleImage}.adaptiveThreshold(${2:int blockSize}, ${3:int offset=0}, ${4:bool invert=false}, ${5:bool gauss=false})"},
-		{ "trigger": "ofxCvGrayscaleImage::blurHeavily"									,"contents": "${1:ofxCvGrayscaleImage}.blurHeavily()"},
-		{ "trigger": "ofxCvGrayscaleImage::brightnessContrast"							,"contents": "${1:ofxCvGrayscaleImage}.brightnessContrast(${2:float brightness}, ${3:float contrast})"},
-		{ "trigger": "ofxCvGrayscaleImage::contrastStretch"								,"contents": "${1:ofxCvGrayscaleImage}.contrastStretch()"},
-		{ "trigger": "ofxCvGrayscaleImage::convertToRange"								,"contents": "${1:ofxCvGrayscaleImage}.convertToRange(${2:float min}, ${3:float max})"},
-		{ "trigger": "ofxCvGrayscaleImage::dilate_3x3"									,"contents": "${1:ofxCvGrayscaleImage}.dilate_3x3()"},
-		{ "trigger": "ofxCvGrayscaleImage::erode_3x3"									,"contents": "${1:ofxCvGrayscaleImage}.erode_3x3()"},
-		{ "trigger": "ofxCvGrayscaleImage::resize" 										,"contents": "${1:ofxCvGrayscaleImage}.resize(${2:int w}, ${3:int h})"},
-		{ "trigger": "ofxCvGrayscaleImage::scaleIntoMe"									,"contents": "${1:ofxCvGrayscaleImage}.scaleIntoMe(${2:ofxCvImage &mom}, ${3:int interpolationMethod=CV_INTER_NN})"},
-		{ "trigger": "ofxCvGrayscaleImage::set"											,"contents": "${1:ofxCvGrayscaleImage}.set(float value)"},
-		{ "trigger": "ofxCvGrayscaleImage::setFromColorImage \t(ofxCvColorImage)"		,"contents": "${1:ofxCvGrayscaleImage}.setFromColorImage(${2:ofxCvColorImage &mom})"},
-		{ "trigger": "ofxCvGrayscaleImage::setFromFloatImage \t(ofxCvFloatImage)"		,"contents": "${1:ofxCvGrayscaleImage}.setFromFloatImage(${2:ofxCvFloatImage &mom})"},
-		{ "trigger": "ofxCvGrayscaleImage::setFromPixels"								,"contents": "${1:ofxCvGrayscaleImage}.setFromPixels(${2:const unsigned char *_pixels}, ${3:int w}, ${4:int h})"},
-		{ "trigger": "ofxCvGrayscaleImage::setRoiFromPixels"							,"contents": "${1:ofxCvGrayscaleImage}.setRoiFromPixels(${2:const unsigned char *_pixels}, ${3:int w}, ${4:int h})"},
-		{ "trigger": "ofxCvGrayscaleImage::threshold" 									,"contents": "${1:ofxCvGrayscaleImage}.threshold(${2:int value}, ${3:bool invert=false})"},
+        //////////////////////////////
+        // ofxCvFloatImage
+        { "trigger": "ofxCvFloatImage::addWeighted"                         ,"contents": "${1:ofxCvFloatImage}.addWeighted(${2:ofxCvGrayscaleImage &mom}, ${3:float f})"},
+        { "trigger": "ofxCvFloatImage::clear"                               ,"contents": "${1:ofxCvFloatImage}.clear()"},
+        { "trigger": "ofxCvFloatImage::contrastStretch"                     ,"contents": "${1:ofxCvFloatImage}.contrastStretch()"},
+        { "trigger": "ofxCvFloatImage::convertToRange"                      ,"contents": "${1:ofxCvFloatImage}.convertToRange(${2:float min}, ${3:float max})"},
+        { "trigger": "ofxCvFloatImage::flagImageChanged"                    ,"contents": "${1:ofxCvFloatImage}.flagImageChanged()"},
+        { "trigger": "ofxCvFloatImage::getFloatPixelsRef"                   ,"contents": "${1:ofxCvFloatImage}.getFloatPixelsRef()"},
+        { "trigger": "ofxCvFloatImage::getNativeScaleMax"                   ,"contents": "${1:ofxCvFloatImage}.getNativeScaleMax()"},
+        { "trigger": "ofxCvFloatImage::getNativeScaleMin"                   ,"contents": "${1:ofxCvFloatImage}.getNativeScaleMin()"},
+        { "trigger": "ofxCvFloatImage::getPixelsAsFloats"                   ,"contents": "${1:ofxCvFloatImage}.getPixelsAsFloats()"},
+        { "trigger": "ofxCvFloatImage::getRoiFloatPixelsRef"                ,"contents": "${1:ofxCvFloatImage}.getRoiFloatPixelsRef()"},
+        { "trigger": "ofxCvFloatImage::getRoiPixelsAsFloats"                ,"contents": "${1:ofxCvFloatImage}.getRoiPixelsAsFloats()"},
+        { "trigger": "ofxCvFloatImage::scaleIntoMe"                         ,"contents": "${1:ofxCvFloatImage}.scaleIntoMe(${2:ofxCvImage &mom}, ${3:int interpolationMethod=CV_INTER_NN})"},
+        { "trigger": "ofxCvFloatImage::set"                                 ,"contents": "${1:ofxCvFloatImage}.set(${2:float value})"},
+        { "trigger": "ofxCvFloatImage::setFromPixels \t(char)"              ,"contents": "${1:ofxCvFloatImage}.setFromPixels(${2:const unsigned char *_pixels}, ${3:int w}, ${4:int h})"},
+        { "trigger": "ofxCvFloatImage::setFromPixels \t(float)"             ,"contents": "${1:ofxCvFloatImage}.setFromPixels(${2:float *_pixels}, ${3:int w}, ${4:int h})"},
+        { "trigger": "ofxCvFloatImage::setNativeScale"                      ,"contents": "${1:ofxCvFloatImage}.setNativeScale(${2:float _scaleMin}, ${3:float _scaleMax})"},
+        { "trigger": "ofxCvFloatImage::setRoiFromPixels \t(char)"           ,"contents": "${1:ofxCvFloatImage}.setRoiFromPixels(${2:const unsigned char *_pixels}, ${3:int w}, ${4:int h})"},
+        { "trigger": "ofxCvFloatImage::setRoiFromPixels \t(float)"          ,"contents": "${1:ofxCvFloatImage}.setRoiFromPixels(${2:float *_pixels}, ${3:int w}, ${4:int h})"},
 
 
-		//////////////////////////////
-		// ofxCvHaarFinder
-		{ "trigger": "ofxCvHaarFinder::draw"											,"contents": "${1:ofxCvHaarFinder}.draw(${2:float x}, ${3:float y})"},
-		{ "trigger": "ofxCvHaarFinder::findHaarObjects \t(ofImage)"						,"contents": "${1:ofxCvHaarFinder}.findHaarObjects(${2:ofImage &input}, ${3:int minWidth=0}, ${4:int minHeight=0})"},
-		{ "trigger": "ofxCvHaarFinder::findHaarObjects \t(ofxCvGrayscaleImage)"			,"contents": "${1:ofxCvHaarFinder}.findHaarObjects(${2:const ofxCvGrayscaleImage &input}, ${3:int minWidth=0}, ${4:int minHeight=0})"},
-		{ "trigger": "ofxCvHaarFinder::findHaarObjects \t(ofRectangle)"					,"contents": "${1:ofxCvHaarFinder}.findHaarObjects(${2:const ofxCvGrayscaleImage &input}, ${3:ofRectangle &roi}, ${4:int minWidth=0}, ${5:int minHeight=0})"},
-		{ "trigger": "ofxCvHaarFinder::findHaarObjects \t(xywh)"						,"contents": "${1:ofxCvHaarFinder}.findHaarObjects(${2:const ofxCvGrayscaleImage &input}, ${3:int x}, ${4:int y}, ${5:int w}, ${6:int h}, ${7:int minWidth=0}, ${8:int minHeight=0})"},
-		{ "trigger": "ofxCvHaarFinder::findHaarObjects \t(ofPixels)"					,"contents": "${1:ofxCvHaarFinder}.findHaarObjects(${2:ofPixels &input}, ${3:int minWidth=0}, ${4:int minHeight=0})"},
-		{ "trigger": "ofxCvHaarFinder::getHeight"										,"contents": "${1:ofxCvHaarFinder}.getHeight()"},
-		{ "trigger": "ofxCvHaarFinder::getWidth"										,"contents": "${1:ofxCvHaarFinder}.getWidth()"},
-		{ "trigger": "ofxCvHaarFinder::setNeighbors"									,"contents": "${1:ofxCvHaarFinder}.setNeighbors(${2:unsigned neighbors})"},
-		{ "trigger": "ofxCvHaarFinder::setScaleHaar"									,"contents": "${1:ofxCvHaarFinder}.setScaleHaar(${2:float scaleHaar})"},
-		{ "trigger": "ofxCvHaarFinder::setup"											,"contents": "${1:ofxCvHaarFinder}.setup(${2:string haarFile}); // must be in /data/"},
-		{ "trigger": "ofxCvHaarFinder::blobs" 											,"contents": "${1:ofxCvHaarFinder}.blobs"},
+        //////////////////////////////
+        // ofxCvGrayscaleImage
+        { "trigger": "ofxCvGrayscaleImage::absDiff"                                     ,"contents": "${1:ofxCvGrayscaleImage}.absDiff(${2:ofxCvGrayscaleImage &mom})"},
+        { "trigger": "ofxCvGrayscaleImage::absDiff \t(two images)"                      ,"contents": "${1:ofxCvGrayscaleImage}.absDiff(${2:ofxCvGrayscaleImage &mom}, ${3:ofxCvGrayscaleImage &dad})"},
+        { "trigger": "ofxCvGrayscaleImage::adaptiveThreshold"                           ,"contents": "${1:ofxCvGrayscaleImage}.adaptiveThreshold(${2:int blockSize}, ${3:int offset=0}, ${4:bool invert=false}, ${5:bool gauss=false})"},
+        { "trigger": "ofxCvGrayscaleImage::blurHeavily"                                 ,"contents": "${1:ofxCvGrayscaleImage}.blurHeavily()"},
+        { "trigger": "ofxCvGrayscaleImage::brightnessContrast"                          ,"contents": "${1:ofxCvGrayscaleImage}.brightnessContrast(${2:float brightness}, ${3:float contrast})"},
+        { "trigger": "ofxCvGrayscaleImage::contrastStretch"                             ,"contents": "${1:ofxCvGrayscaleImage}.contrastStretch()"},
+        { "trigger": "ofxCvGrayscaleImage::convertToRange"                              ,"contents": "${1:ofxCvGrayscaleImage}.convertToRange(${2:float min}, ${3:float max})"},
+        { "trigger": "ofxCvGrayscaleImage::dilate_3x3"                                  ,"contents": "${1:ofxCvGrayscaleImage}.dilate_3x3()"},
+        { "trigger": "ofxCvGrayscaleImage::erode_3x3"                                   ,"contents": "${1:ofxCvGrayscaleImage}.erode_3x3()"},
+        { "trigger": "ofxCvGrayscaleImage::resize"                                      ,"contents": "${1:ofxCvGrayscaleImage}.resize(${2:int w}, ${3:int h})"},
+        { "trigger": "ofxCvGrayscaleImage::scaleIntoMe"                                 ,"contents": "${1:ofxCvGrayscaleImage}.scaleIntoMe(${2:ofxCvImage &mom}, ${3:int interpolationMethod=CV_INTER_NN})"},
+        { "trigger": "ofxCvGrayscaleImage::set"                                         ,"contents": "${1:ofxCvGrayscaleImage}.set(float value)"},
+        { "trigger": "ofxCvGrayscaleImage::setFromColorImage \t(ofxCvColorImage)"       ,"contents": "${1:ofxCvGrayscaleImage}.setFromColorImage(${2:ofxCvColorImage &mom})"},
+        { "trigger": "ofxCvGrayscaleImage::setFromFloatImage \t(ofxCvFloatImage)"       ,"contents": "${1:ofxCvGrayscaleImage}.setFromFloatImage(${2:ofxCvFloatImage &mom})"},
+        { "trigger": "ofxCvGrayscaleImage::setFromPixels"                               ,"contents": "${1:ofxCvGrayscaleImage}.setFromPixels(${2:const unsigned char *_pixels}, ${3:int w}, ${4:int h})"},
+        { "trigger": "ofxCvGrayscaleImage::setRoiFromPixels"                            ,"contents": "${1:ofxCvGrayscaleImage}.setRoiFromPixels(${2:const unsigned char *_pixels}, ${3:int w}, ${4:int h})"},
+        { "trigger": "ofxCvGrayscaleImage::threshold"                                   ,"contents": "${1:ofxCvGrayscaleImage}.threshold(${2:int value}, ${3:bool invert=false})"},
 
 
-
-		//////////////////////////////
-		// ofxCvImage
-		{ "trigger": "ofxCvImage::allocate"									,"contents": "${1:ofxCvImage}.allocate(int w, int h)"},
-		{ "trigger": "ofxCvImage::blur"										,"contents": "${1:ofxCvImage}.blur(${2:int value=3})"},
-		{ "trigger": "ofxCvImage::blurGaussian"								,"contents": "${1:ofxCvImage}.blurGaussian(${2:int value=3})"},
-		{ "trigger": "ofxCvImage::clear"									,"contents": "${1:ofxCvImage}.clear()"},
-		{ "trigger": "ofxCvImage::contrastStretch"							,"contents": "${1:ofxCvImage}.contrastStretch()"},
-		{ "trigger": "ofxCvImage::convertToRange"							,"contents": "${1:ofxCvImage}.convertToRange(${2:float min}, ${3:float max})"},
-		{ "trigger": "ofxCvImage::countNonZeroInRegion"						,"contents": "${1:ofxCvImage}.countNonZeroInRegion(${2:int x}, ${3:int y}, ${4:int w}, ${5:int h})"},
-		{ "trigger": "ofxCvImage::dilate"									,"contents": "${1:ofxCvImage}.dilate()"},
-		{ "trigger": "ofxCvImage::draw"										,"contents": "${1:ofxCvImage}.draw(${2:float x}, ${3:float y})"},
-		{ "trigger": "ofxCvImage::draw \t(xywh)"							,"contents": "${1:ofxCvImage}.draw(${2:float x}, ${3:float y}, ${4:float w}, ${5:float h})"},
-		{ "trigger": "ofxCvImage::draw \tofPoint &point)"					,"contents": "${1:ofxCvImage}.draw(${2:const ofPoint &point})"},
-		{ "trigger": "ofxCvImage::draw \tofRectangle &rect)"				,"contents": "${1:ofxCvImage}.draw(${2:const ofRectangle &rect})"},
-		{ "trigger": "ofxCvImage::drawBlobIntoMe"							,"contents": "${1:ofxCvImage}.drawBlobIntoMe(${2:ofxCvBlob &blob}, ${3:int color})"},
-		{ "trigger": "ofxCvImage::drawROI"									,"contents": "${1:ofxCvImage}.drawROI(${2:float x}, ${3:float y})"},
-		{ "trigger": "ofxCvImage::drawROI \t(xywh)"							,"contents": "${1:ofxCvImage}.drawROI(${2:float x}, ${3:float y}, ${4:float w}, ${5:float h})"},
-		{ "trigger": "ofxCvImage::erode"									,"contents": "${1:ofxCvImage}.erode()"},
-		{ "trigger": "ofxCvImage::flagImageChanged"							,"contents": "${1:ofxCvImage}.flagImageChanged()"},
-		{ "trigger": "ofxCvImage::getCvImage"								,"contents": "${1:ofxCvImage}.getCvImage()"},
-		{ "trigger": "ofxCvImage::getHeight"								,"contents": "${1:ofxCvImage}.getHeight()"},
-		{ "trigger": "ofxCvImage::getIntersectionROI"						,"contents": "${1:ofxCvImage}.getIntersectionROI(${2:const ofRectangle &rec1}, ${3:const ofRectangle &rec2})"},
-		{ "trigger": "ofxCvImage::getPixels"								,"contents": "${1:ofxCvImage}.getPixels()"},
-		{ "trigger": "ofxCvImage::getPixelsRef"								,"contents": "${1:ofxCvImage}.getPixelsRef()"},
-		{ "trigger": "ofxCvImage::getROI"									,"contents": "${1:ofxCvImage}.getROI()"},
-		{ "trigger": "ofxCvImage::getRoiPixels"								,"contents": "${1:ofxCvImage}.getRoiPixels()"},
-		{ "trigger": "ofxCvImage::getRoiPixelsRef" 							,"contents": "${1:ofxCvImage}.getRoiPixelsRef()"},
-		{ "trigger": "ofxCvImage::getTextureReference" 						,"contents": "${1:ofxCvImage}.getTextureReference()"},
-		{ "trigger": "ofxCvImage::getWidth"									,"contents": "${1:ofxCvImage}.getWidth()"},
-		{ "trigger": "ofxCvImage::invert"									,"contents": "${1:ofxCvImage}.invert()"},
-		{ "trigger": "ofxCvImage::mirror" 									,"contents": "${1:ofxCvImage}.mirror(${2:bool bFlipVertically}, ${3:bool bFlipHorizontally})"},
-		{ "trigger": "ofxCvImage::remap" 									,"contents": "${1:ofxCvImage}.remap(${2:IplImage mapX}, ${3:IplImage mapY})"},
-		{ "trigger": "ofxCvImage::resetAnchor" 								,"contents": "${1:ofxCvImage}.resetAnchor()"},
-		{ "trigger": "ofxCvImage::resetROI"									,"contents": "${1:ofxCvImage}.resetROI()"},
-		{ "trigger": "ofxCvImage::resize" 									,"contents": "${1:ofxCvImage}.resize(${2:int w}, ${3:int h})"},
-		{ "trigger": "ofxCvImage::rotate"									,"contents": "${1:ofxCvImage}.rotate(${2:float angle}, ${3:float centerX}, ${4:float centerY})"},
-		{ "trigger": "ofxCvImage::scale"									,"contents": "${1:ofxCvImage}.scale(${2:float scaleX}, ${3:float sclaeY})"},
-		{ "trigger": "ofxCvImage::scaleIntoMe"								,"contents": "${1:ofxCvImage}.scaleIntoMe(${2:ofxCvImage &mom}, ${3:int interpolationMethod=CV_INTER_NN})"},
-		{ "trigger": "ofxCvImage::set"										,"contents": "${1:ofxCvImage}.set(${2:float value})"},
-		{ "trigger": "ofxCvImage::setAnchorPercent"							,"contents": "${1:ofxCvImage}.setAnchorPercent(${2:float xPct}, ${3:float yPct})"},
-		{ "trigger": "ofxCvImage::setAnchorPoint"							,"contents": "${1:ofxCvImage}.setAnchorPoint(${2:float x}, ${3:float y})"},
-		{ "trigger": "ofxCvImage::setFromPixels"							,"contents": "${1:ofxCvImage}.setFromPixels(${2:const unsigned char *_pixels}, ${3:int w}, ${4:int h})"},
-		{ "trigger": "ofxCvImage::setFromPixels \t(ofPixels)"				,"contents": "${1:ofxCvImage}.setFromPixels(${2:const ofPixels &pixels})"},
-		{ "trigger": "ofxCvImage::setROI"									,"contents": "${1:ofxCvImage}.setROI(${2:int x}, ${3:int y}, ${4:int w}, ${5:int h})"},
-		{ "trigger": "ofxCvImage::setROI \t(ofRectangle)"					,"contents": "${1:ofxCvImage}.setROI(${2:const ofRectangle &rect})"},
-		{ "trigger": "ofxCvImage::setRoiFromPixels"							,"contents": "${1:ofxCvImage}.setRoiFromPixels(${2:const unsigned char *_pixels}, ${3:int w}, ${4:int h})"},
-		{ "trigger": "ofxCvImage::setRoiFromPixels \t(ofPixels)"			,"contents": "${1:ofxCvImage}.setRoiFromPixels(${2:const ofPixels &pixels})"},
-		{ "trigger": "ofxCvImage::setUseTexture"							,"contents": "${1:ofxCvImage}.setUseTexture(${2:bool bUse})"},
-		{ "trigger": "ofxCvImage::transform"								,"contents": "${1:ofxCvImage}.transform(${2:float angle}, ${3:float centerX}, ${4:float centerY}, ${5:float scaleX}, ${6:float scaleY}, ${7:float moveX}, ${8:float moveY})"},
-		{ "trigger": "ofxCvImage::translate"								,"contents": "${1:ofxCvImage}.translate(${2:float x}, ${3:float y})"},
-		{ "trigger": "ofxCvImage::undistort"								,"contents": "${1:ofxCvImage}.undistort(${2:float radialDistX}, ${3:float radialDistY}, ${4:float tangentDistX}, ${5:float tangentDistY}, ${6:float focalX}, ${7:float focalY}, ${8:float centerX}, ${9:float centerY})"},
-		{ "trigger": "ofxCvImage::updateTexture"							,"contents": "${1:ofxCvImage}.updateTexture()"},
-		{ "trigger": "ofxCvImage::warpIntoMe"								,"contents": "${1:ofxCvImage}.warpIntoMe(${2:ofxCvImage &mom}, ${3:const ofPoint src[4]}, ${4:const ofPoint dst[4]})"},
-		{ "trigger": "ofxCvImage::warpPerspective"							,"contents": "${1:ofxCvImage}.warpPerspective(${2:const ofPoint &A}, ${3:const ofPoint &B}, ${4:const ofPoint &C}, ${5:const ofPoint &D})"},
-		{ "trigger": "ofxCvImage::bAllocated"								,"contents": "${1:ofxCvImage}.bAllocated"},
-		{ "trigger": "ofxCvImage::height" 									,"contents": "${1:ofxCvImage}.height"},
-		{ "trigger": "ofxCvImage::width" 									,"contents": "${1:ofxCvImage}.width"},
+        //////////////////////////////
+        // ofxCvHaarFinder
+        { "trigger": "ofxCvHaarFinder::draw"                                            ,"contents": "${1:ofxCvHaarFinder}.draw(${2:float x}, ${3:float y})"},
+        { "trigger": "ofxCvHaarFinder::findHaarObjects \t(ofImage)"                     ,"contents": "${1:ofxCvHaarFinder}.findHaarObjects(${2:ofImage &input}, ${3:int minWidth=0}, ${4:int minHeight=0})"},
+        { "trigger": "ofxCvHaarFinder::findHaarObjects \t(ofxCvGrayscaleImage)"         ,"contents": "${1:ofxCvHaarFinder}.findHaarObjects(${2:const ofxCvGrayscaleImage &input}, ${3:int minWidth=0}, ${4:int minHeight=0})"},
+        { "trigger": "ofxCvHaarFinder::findHaarObjects \t(ofRectangle)"                 ,"contents": "${1:ofxCvHaarFinder}.findHaarObjects(${2:const ofxCvGrayscaleImage &input}, ${3:ofRectangle &roi}, ${4:int minWidth=0}, ${5:int minHeight=0})"},
+        { "trigger": "ofxCvHaarFinder::findHaarObjects \t(xywh)"                        ,"contents": "${1:ofxCvHaarFinder}.findHaarObjects(${2:const ofxCvGrayscaleImage &input}, ${3:int x}, ${4:int y}, ${5:int w}, ${6:int h}, ${7:int minWidth=0}, ${8:int minHeight=0})"},
+        { "trigger": "ofxCvHaarFinder::findHaarObjects \t(ofPixels)"                    ,"contents": "${1:ofxCvHaarFinder}.findHaarObjects(${2:ofPixels &input}, ${3:int minWidth=0}, ${4:int minHeight=0})"},
+        { "trigger": "ofxCvHaarFinder::getHeight"                                       ,"contents": "${1:ofxCvHaarFinder}.getHeight()"},
+        { "trigger": "ofxCvHaarFinder::getWidth"                                        ,"contents": "${1:ofxCvHaarFinder}.getWidth()"},
+        { "trigger": "ofxCvHaarFinder::setNeighbors"                                    ,"contents": "${1:ofxCvHaarFinder}.setNeighbors(${2:unsigned neighbors})"},
+        { "trigger": "ofxCvHaarFinder::setScaleHaar"                                    ,"contents": "${1:ofxCvHaarFinder}.setScaleHaar(${2:float scaleHaar})"},
+        { "trigger": "ofxCvHaarFinder::setup"                                           ,"contents": "${1:ofxCvHaarFinder}.setup(${2:string haarFile}); // must be in /data/"},
+        { "trigger": "ofxCvHaarFinder::blobs"                                           ,"contents": "${1:ofxCvHaarFinder}.blobs"},
 
 
 
-		//////////////////////////////
-		// ofxCvShortImage
+        //////////////////////////////
+        // ofxCvImage
+        { "trigger": "ofxCvImage::allocate"                                 ,"contents": "${1:ofxCvImage}.allocate(int w, int h)"},
+        { "trigger": "ofxCvImage::blur"                                     ,"contents": "${1:ofxCvImage}.blur(${2:int value=3})"},
+        { "trigger": "ofxCvImage::blurGaussian"                             ,"contents": "${1:ofxCvImage}.blurGaussian(${2:int value=3})"},
+        { "trigger": "ofxCvImage::clear"                                    ,"contents": "${1:ofxCvImage}.clear()"},
+        { "trigger": "ofxCvImage::contrastStretch"                          ,"contents": "${1:ofxCvImage}.contrastStretch()"},
+        { "trigger": "ofxCvImage::convertToRange"                           ,"contents": "${1:ofxCvImage}.convertToRange(${2:float min}, ${3:float max})"},
+        { "trigger": "ofxCvImage::countNonZeroInRegion"                     ,"contents": "${1:ofxCvImage}.countNonZeroInRegion(${2:int x}, ${3:int y}, ${4:int w}, ${5:int h})"},
+        { "trigger": "ofxCvImage::dilate"                                   ,"contents": "${1:ofxCvImage}.dilate()"},
+        { "trigger": "ofxCvImage::draw"                                     ,"contents": "${1:ofxCvImage}.draw(${2:float x}, ${3:float y})"},
+        { "trigger": "ofxCvImage::draw \t(xywh)"                            ,"contents": "${1:ofxCvImage}.draw(${2:float x}, ${3:float y}, ${4:float w}, ${5:float h})"},
+        { "trigger": "ofxCvImage::draw \tofPoint &point)"                   ,"contents": "${1:ofxCvImage}.draw(${2:const ofPoint &point})"},
+        { "trigger": "ofxCvImage::draw \tofRectangle &rect)"                ,"contents": "${1:ofxCvImage}.draw(${2:const ofRectangle &rect})"},
+        { "trigger": "ofxCvImage::drawBlobIntoMe"                           ,"contents": "${1:ofxCvImage}.drawBlobIntoMe(${2:ofxCvBlob &blob}, ${3:int color})"},
+        { "trigger": "ofxCvImage::drawROI"                                  ,"contents": "${1:ofxCvImage}.drawROI(${2:float x}, ${3:float y})"},
+        { "trigger": "ofxCvImage::drawROI \t(xywh)"                         ,"contents": "${1:ofxCvImage}.drawROI(${2:float x}, ${3:float y}, ${4:float w}, ${5:float h})"},
+        { "trigger": "ofxCvImage::erode"                                    ,"contents": "${1:ofxCvImage}.erode()"},
+        { "trigger": "ofxCvImage::flagImageChanged"                         ,"contents": "${1:ofxCvImage}.flagImageChanged()"},
+        { "trigger": "ofxCvImage::getCvImage"                               ,"contents": "${1:ofxCvImage}.getCvImage()"},
+        { "trigger": "ofxCvImage::getHeight"                                ,"contents": "${1:ofxCvImage}.getHeight()"},
+        { "trigger": "ofxCvImage::getIntersectionROI"                       ,"contents": "${1:ofxCvImage}.getIntersectionROI(${2:const ofRectangle &rec1}, ${3:const ofRectangle &rec2})"},
+        { "trigger": "ofxCvImage::getPixels"                                ,"contents": "${1:ofxCvImage}.getPixels()"},
+        { "trigger": "ofxCvImage::getPixelsRef"                             ,"contents": "${1:ofxCvImage}.getPixelsRef()"},
+        { "trigger": "ofxCvImage::getROI"                                   ,"contents": "${1:ofxCvImage}.getROI()"},
+        { "trigger": "ofxCvImage::getRoiPixels"                             ,"contents": "${1:ofxCvImage}.getRoiPixels()"},
+        { "trigger": "ofxCvImage::getRoiPixelsRef"                          ,"contents": "${1:ofxCvImage}.getRoiPixelsRef()"},
+        { "trigger": "ofxCvImage::getTextureReference"                      ,"contents": "${1:ofxCvImage}.getTextureReference()"},
+        { "trigger": "ofxCvImage::getWidth"                                 ,"contents": "${1:ofxCvImage}.getWidth()"},
+        { "trigger": "ofxCvImage::invert"                                   ,"contents": "${1:ofxCvImage}.invert()"},
+        { "trigger": "ofxCvImage::mirror"                                   ,"contents": "${1:ofxCvImage}.mirror(${2:bool bFlipVertically}, ${3:bool bFlipHorizontally})"},
+        { "trigger": "ofxCvImage::remap"                                    ,"contents": "${1:ofxCvImage}.remap(${2:IplImage mapX}, ${3:IplImage mapY})"},
+        { "trigger": "ofxCvImage::resetAnchor"                              ,"contents": "${1:ofxCvImage}.resetAnchor()"},
+        { "trigger": "ofxCvImage::resetROI"                                 ,"contents": "${1:ofxCvImage}.resetROI()"},
+        { "trigger": "ofxCvImage::resize"                                   ,"contents": "${1:ofxCvImage}.resize(${2:int w}, ${3:int h})"},
+        { "trigger": "ofxCvImage::rotate"                                   ,"contents": "${1:ofxCvImage}.rotate(${2:float angle}, ${3:float centerX}, ${4:float centerY})"},
+        { "trigger": "ofxCvImage::scale"                                    ,"contents": "${1:ofxCvImage}.scale(${2:float scaleX}, ${3:float sclaeY})"},
+        { "trigger": "ofxCvImage::scaleIntoMe"                              ,"contents": "${1:ofxCvImage}.scaleIntoMe(${2:ofxCvImage &mom}, ${3:int interpolationMethod=CV_INTER_NN})"},
+        { "trigger": "ofxCvImage::set"                                      ,"contents": "${1:ofxCvImage}.set(${2:float value})"},
+        { "trigger": "ofxCvImage::setAnchorPercent"                         ,"contents": "${1:ofxCvImage}.setAnchorPercent(${2:float xPct}, ${3:float yPct})"},
+        { "trigger": "ofxCvImage::setAnchorPoint"                           ,"contents": "${1:ofxCvImage}.setAnchorPoint(${2:float x}, ${3:float y})"},
+        { "trigger": "ofxCvImage::setFromPixels"                            ,"contents": "${1:ofxCvImage}.setFromPixels(${2:const unsigned char *_pixels}, ${3:int w}, ${4:int h})"},
+        { "trigger": "ofxCvImage::setFromPixels \t(ofPixels)"               ,"contents": "${1:ofxCvImage}.setFromPixels(${2:const ofPixels &pixels})"},
+        { "trigger": "ofxCvImage::setROI"                                   ,"contents": "${1:ofxCvImage}.setROI(${2:int x}, ${3:int y}, ${4:int w}, ${5:int h})"},
+        { "trigger": "ofxCvImage::setROI \t(ofRectangle)"                   ,"contents": "${1:ofxCvImage}.setROI(${2:const ofRectangle &rect})"},
+        { "trigger": "ofxCvImage::setRoiFromPixels"                         ,"contents": "${1:ofxCvImage}.setRoiFromPixels(${2:const unsigned char *_pixels}, ${3:int w}, ${4:int h})"},
+        { "trigger": "ofxCvImage::setRoiFromPixels \t(ofPixels)"            ,"contents": "${1:ofxCvImage}.setRoiFromPixels(${2:const ofPixels &pixels})"},
+        { "trigger": "ofxCvImage::setUseTexture"                            ,"contents": "${1:ofxCvImage}.setUseTexture(${2:bool bUse})"},
+        { "trigger": "ofxCvImage::transform"                                ,"contents": "${1:ofxCvImage}.transform(${2:float angle}, ${3:float centerX}, ${4:float centerY}, ${5:float scaleX}, ${6:float scaleY}, ${7:float moveX}, ${8:float moveY})"},
+        { "trigger": "ofxCvImage::translate"                                ,"contents": "${1:ofxCvImage}.translate(${2:float x}, ${3:float y})"},
+        { "trigger": "ofxCvImage::undistort"                                ,"contents": "${1:ofxCvImage}.undistort(${2:float radialDistX}, ${3:float radialDistY}, ${4:float tangentDistX}, ${5:float tangentDistY}, ${6:float focalX}, ${7:float focalY}, ${8:float centerX}, ${9:float centerY})"},
+        { "trigger": "ofxCvImage::updateTexture"                            ,"contents": "${1:ofxCvImage}.updateTexture()"},
+        { "trigger": "ofxCvImage::warpIntoMe"                               ,"contents": "${1:ofxCvImage}.warpIntoMe(${2:ofxCvImage &mom}, ${3:const ofPoint src[4]}, ${4:const ofPoint dst[4]})"},
+        { "trigger": "ofxCvImage::warpPerspective"                          ,"contents": "${1:ofxCvImage}.warpPerspective(${2:const ofPoint &A}, ${3:const ofPoint &B}, ${4:const ofPoint &C}, ${5:const ofPoint &D})"},
+        { "trigger": "ofxCvImage::bAllocated"                               ,"contents": "${1:ofxCvImage}.bAllocated"},
+        { "trigger": "ofxCvImage::height"                                   ,"contents": "${1:ofxCvImage}.height"},
+        { "trigger": "ofxCvImage::width"                                    ,"contents": "${1:ofxCvImage}.width"},
 
 
-		/////////////////// ##ofxOsc## /////////////////////
-		//////////////////////////////
-		// ofxOscArg
-		{ "trigger": "ofxOscArg::getType"						,"contents": "${1:ofxOscArg}.getType()"},
-		{ "trigger": "ofxOscArg::getTypeName"					,"contents": "${1:ofxOscArg}.getTypeName()"},
 
-		//////////////////////////////
-		// ofxOscArgFloat
-		{ "trigger": "ofxOscArgFloat::get"						,"contents": "${1:ofxOscArgFloat}.get()"},
-		{ "trigger": "ofxOscArgFloat::getType"					,"contents": "${1:ofxOscArgFloat}.getType()"},
-		{ "trigger": "ofxOscArgFloat::getTypeName"				,"contents": "${1:ofxOscArgFloat}.getTypeName()"},
-		{ "trigger": "ofxOscArgFloat::set"						,"contents": "${1:ofxOscArgFloat}.set(${2:float _value})"},
-
-		//////////////////////////////
-		// ofxOscArgInt32
-		{ "trigger": "ofxOscArgInt32::get"						,"contents": "${1:ofxOscArgInt32}get()"},
-		{ "trigger": "ofxOscArgInt32::getType"					,"contents": "${1:ofxOscArgInt32}getType()"},
-		{ "trigger": "ofxOscArgInt32::getTypeName"				,"contents": "${1:ofxOscArgInt32}getTypeName()"},
-		{ "trigger": "ofxOscArgInt32::set"						,"contents": "${1:ofxOscArgInt32}set(${2:int32_t _value})"},
-
-		//////////////////////////////
-		// ofxOscArgString
-		{ "trigger": "ofxOscArgString::get"						,"contents": "${1:ofxOscArgString}.get()"},
-		{ "trigger": "ofxOscArgString::getType"					,"contents": "${1:ofxOscArgString}.getType()"},
-		{ "trigger": "ofxOscArgString::getTypeName"				,"contents": "${1:ofxOscArgString}.getTypeName()"},
-		{ "trigger": "ofxOscArgString::set"						,"contents": "${1:ofxOscArgString}.set(${2:const char *_value})"},
-
-		//////////////////////////////
-		// ofxOscBundle
-		{ "trigger": "ofxOscBundle::addBundle"					,"contents": "${1:ofxOscBundle}.addBundle(${2:const ofxOscBundle &element})"},
-		{ "trigger": "ofxOscBundle::addMessage"					,"contents": "${1:ofxOscBundle}.addMessage(${2:const ofxOscMessage &message})"},
-		{ "trigger": "ofxOscBundle::clear"						,"contents": "${1:ofxOscBundle}.clear()"},
-		{ "trigger": "ofxOscBundle::copy"						,"contents": "${1:ofxOscBundle}.copy(${2:const ofxOscBundle &other})"},
-		{ "trigger": "ofxOscBundle::getBundleAt"				,"contents": "${1:ofxOscBundle}.getBundleAt(${2:int i})"},
-		{ "trigger": "ofxOscBundle::getBundleCount"				,"contents": "${1:ofxOscBundle}.getBundleCount()"},
-		{ "trigger": "ofxOscBundle::getMessageAt"				,"contents": "${1:ofxOscBundle}.getMessageAt(${2:int i})"},
-		{ "trigger": "ofxOscBundle::getMessageCount"			,"contents": "${1:ofxOscBundle}.getMessageCount()"},
-
-		//////////////////////////////
-		// ofxOscMessage
-		{ "trigger": "ofxOscMessage::addFloatArg"				,"contents": "${1:ofxOscMessage}.addFloatArg(${2:float argument})"},
-		{ "trigger": "ofxOscMessage::addIntArg"					,"contents": "${1:ofxOscMessage}.addIntArg(${2:int32_t argument})"},
-		{ "trigger": "ofxOscMessage::addStringArg"				,"contents": "${1:ofxOscMessage}.addStringArg(${2:string argument})"},
-		{ "trigger": "ofxOscMessage::clear"						,"contents": "${1:ofxOscMessage}.clear()"},
-		{ "trigger": "ofxOscMessage::copy"						,"contents": "${1:ofxOscMessage}.copy(${2:const ofxOscMessage &other})"},
-		{ "trigger": "ofxOscMessage::getAddress"				,"contents": "${1:ofxOscMessage}.getAddress()"},
-		{ "trigger": "ofxOscMessage::getArgAsFloat"				,"contents": "${1:ofxOscMessage}.getArgAsFloat(${2:int index})"},
-		{ "trigger": "ofxOscMessage::getArgAsInt32"				,"contents": "${1:ofxOscMessage}.getArgAsInt32(${2:int index})"},
-		{ "trigger": "ofxOscMessage::getArgAsString"			,"contents": "${1:ofxOscMessage}.getArgAsString(${2:int index})"},
-		{ "trigger": "ofxOscMessage::getArgType"				,"contents": "${1:ofxOscMessage}.getArgType(${2:int index})"},
-		{ "trigger": "ofxOscMessage::getArgTypeName"			,"contents": "${1:ofxOscMessage}.getArgTypeName(${2:int index})"},
-		{ "trigger": "ofxOscMessage::getNumArgs"				,"contents": "${1:ofxOscMessage}.getNumArgs()"},
-		{ "trigger": "ofxOscMessage::getRemoteIp"				,"contents": "${1:ofxOscMessage}.getRemoteIp()"},
-		{ "trigger": "ofxOscMessage::getRemotePort"				,"contents": "${1:ofxOscMessage}.getRemotePort()"},
-		{ "trigger": "ofxOscMessage::setAddress"				,"contents": "${1:ofxOscMessage}.setAddress(${2:string _address})"},
-		{ "trigger": "ofxOscMessage::setRemoteEndpoint"			,"contents": "${1:ofxOscMessage}.setRemoteEndpoint(${2:string host}, ${2:int port})"},
-
-		//////////////////////////////
-		// ofxOscReceiver
-		{ "trigger": "ofxOscReceiver::getNextMessage"			,"contents": "${1:ofxOscReceiver}.getNextMessage(${2:ofxOscMessage *})"},
-		{ "trigger": "ofxOscReceiver::hasWaitingMessages"		,"contents": "${1:ofxOscReceiver}.hasWaitingMessages()"},
-		{ "trigger": "ofxOscReceiver::setup"					,"contents": "${1:ofxOscReceiver}.setup(${2:int listen_port})"},
-
-		//////////////////////////////
-		// ofxOscSender
-		{ "trigger": "ofxOscSender::sendBundle"					,"contents": "${1:ofxOscSender}.sendBundle(${2:ofxOscBundle &bundle})"},
-		{ "trigger": "ofxOscSender::sendMessage"				,"contents": "${1:ofxOscSender}.sendMessage(${2:ofxOscMessage &message})"},
-		{ "trigger": "ofxOscSender::setup"						,"contents": "${1:ofxOscSender}.setup(${2:std})"},
-		{ "trigger": "ofxOscSender::setup \t(host,port)"		,"contents": "${1:ofxOscSender}.setup(${2:std::string hostname}, ${3:int port})"},
+        //////////////////////////////
+        // ofxCvShortImage
 
 
-		{} // trailing object, don't remove
-		////////////////////// END ///////////////////////////////
-	]
+        /////////////////// ##ofxOsc## /////////////////////
+        //////////////////////////////
+        // ofxOscArg
+        { "trigger": "ofxOscArg::getType"                       ,"contents": "${1:ofxOscArg}.getType()"},
+        { "trigger": "ofxOscArg::getTypeName"                   ,"contents": "${1:ofxOscArg}.getTypeName()"},
+
+        //////////////////////////////
+        // ofxOscArgFloat
+        { "trigger": "ofxOscArgFloat::get"                      ,"contents": "${1:ofxOscArgFloat}.get()"},
+        { "trigger": "ofxOscArgFloat::getType"                  ,"contents": "${1:ofxOscArgFloat}.getType()"},
+        { "trigger": "ofxOscArgFloat::getTypeName"              ,"contents": "${1:ofxOscArgFloat}.getTypeName()"},
+        { "trigger": "ofxOscArgFloat::set"                      ,"contents": "${1:ofxOscArgFloat}.set(${2:float _value})"},
+
+        //////////////////////////////
+        // ofxOscArgInt32
+        { "trigger": "ofxOscArgInt32::get"                      ,"contents": "${1:ofxOscArgInt32}get()"},
+        { "trigger": "ofxOscArgInt32::getType"                  ,"contents": "${1:ofxOscArgInt32}getType()"},
+        { "trigger": "ofxOscArgInt32::getTypeName"              ,"contents": "${1:ofxOscArgInt32}getTypeName()"},
+        { "trigger": "ofxOscArgInt32::set"                      ,"contents": "${1:ofxOscArgInt32}set(${2:int32_t _value})"},
+
+        //////////////////////////////
+        // ofxOscArgString
+        { "trigger": "ofxOscArgString::get"                     ,"contents": "${1:ofxOscArgString}.get()"},
+        { "trigger": "ofxOscArgString::getType"                 ,"contents": "${1:ofxOscArgString}.getType()"},
+        { "trigger": "ofxOscArgString::getTypeName"             ,"contents": "${1:ofxOscArgString}.getTypeName()"},
+        { "trigger": "ofxOscArgString::set"                     ,"contents": "${1:ofxOscArgString}.set(${2:const char *_value})"},
+
+        //////////////////////////////
+        // ofxOscBundle
+        { "trigger": "ofxOscBundle::addBundle"                  ,"contents": "${1:ofxOscBundle}.addBundle(${2:const ofxOscBundle &element})"},
+        { "trigger": "ofxOscBundle::addMessage"                 ,"contents": "${1:ofxOscBundle}.addMessage(${2:const ofxOscMessage &message})"},
+        { "trigger": "ofxOscBundle::clear"                      ,"contents": "${1:ofxOscBundle}.clear()"},
+        { "trigger": "ofxOscBundle::copy"                       ,"contents": "${1:ofxOscBundle}.copy(${2:const ofxOscBundle &other})"},
+        { "trigger": "ofxOscBundle::getBundleAt"                ,"contents": "${1:ofxOscBundle}.getBundleAt(${2:int i})"},
+        { "trigger": "ofxOscBundle::getBundleCount"             ,"contents": "${1:ofxOscBundle}.getBundleCount()"},
+        { "trigger": "ofxOscBundle::getMessageAt"               ,"contents": "${1:ofxOscBundle}.getMessageAt(${2:int i})"},
+        { "trigger": "ofxOscBundle::getMessageCount"            ,"contents": "${1:ofxOscBundle}.getMessageCount()"},
+
+        //////////////////////////////
+        // ofxOscMessage
+        { "trigger": "ofxOscMessage::addFloatArg"               ,"contents": "${1:ofxOscMessage}.addFloatArg(${2:float argument})"},
+        { "trigger": "ofxOscMessage::addIntArg"                 ,"contents": "${1:ofxOscMessage}.addIntArg(${2:int32_t argument})"},
+        { "trigger": "ofxOscMessage::addStringArg"              ,"contents": "${1:ofxOscMessage}.addStringArg(${2:string argument})"},
+        { "trigger": "ofxOscMessage::clear"                     ,"contents": "${1:ofxOscMessage}.clear()"},
+        { "trigger": "ofxOscMessage::copy"                      ,"contents": "${1:ofxOscMessage}.copy(${2:const ofxOscMessage &other})"},
+        { "trigger": "ofxOscMessage::getAddress"                ,"contents": "${1:ofxOscMessage}.getAddress()"},
+        { "trigger": "ofxOscMessage::getArgAsFloat"             ,"contents": "${1:ofxOscMessage}.getArgAsFloat(${2:int index})"},
+        { "trigger": "ofxOscMessage::getArgAsInt32"             ,"contents": "${1:ofxOscMessage}.getArgAsInt32(${2:int index})"},
+        { "trigger": "ofxOscMessage::getArgAsString"            ,"contents": "${1:ofxOscMessage}.getArgAsString(${2:int index})"},
+        { "trigger": "ofxOscMessage::getArgType"                ,"contents": "${1:ofxOscMessage}.getArgType(${2:int index})"},
+        { "trigger": "ofxOscMessage::getArgTypeName"            ,"contents": "${1:ofxOscMessage}.getArgTypeName(${2:int index})"},
+        { "trigger": "ofxOscMessage::getNumArgs"                ,"contents": "${1:ofxOscMessage}.getNumArgs()"},
+        { "trigger": "ofxOscMessage::getRemoteIp"               ,"contents": "${1:ofxOscMessage}.getRemoteIp()"},
+        { "trigger": "ofxOscMessage::getRemotePort"             ,"contents": "${1:ofxOscMessage}.getRemotePort()"},
+        { "trigger": "ofxOscMessage::setAddress"                ,"contents": "${1:ofxOscMessage}.setAddress(${2:string _address})"},
+        { "trigger": "ofxOscMessage::setRemoteEndpoint"         ,"contents": "${1:ofxOscMessage}.setRemoteEndpoint(${2:string host}, ${2:int port})"},
+
+        //////////////////////////////
+        // ofxOscReceiver
+        { "trigger": "ofxOscReceiver::getNextMessage"           ,"contents": "${1:ofxOscReceiver}.getNextMessage(${2:ofxOscMessage *})"},
+        { "trigger": "ofxOscReceiver::hasWaitingMessages"       ,"contents": "${1:ofxOscReceiver}.hasWaitingMessages()"},
+        { "trigger": "ofxOscReceiver::setup"                    ,"contents": "${1:ofxOscReceiver}.setup(${2:int listen_port})"},
+
+        //////////////////////////////
+        // ofxOscSender
+        { "trigger": "ofxOscSender::sendBundle"                 ,"contents": "${1:ofxOscSender}.sendBundle(${2:ofxOscBundle &bundle})"},
+        { "trigger": "ofxOscSender::sendMessage"                ,"contents": "${1:ofxOscSender}.sendMessage(${2:ofxOscMessage &message})"},
+        { "trigger": "ofxOscSender::setup"                      ,"contents": "${1:ofxOscSender}.setup(${2:std})"},
+        { "trigger": "ofxOscSender::setup \t(host,port)"        ,"contents": "${1:ofxOscSender}.setup(${2:std::string hostname}, ${3:int port})"},
+
+
+        {} // trailing object, don't remove
+        ////////////////////// END ///////////////////////////////
+    ]
 }
