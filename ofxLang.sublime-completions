@@ -489,35 +489,72 @@
 		/////////////////// ##ofxOsc## /////////////////////
 		//////////////////////////////
 		// ofxOscArg
-
+		{ "trigger": "ofxOscArg::getType"						,"contents": "${1:ofxOscArg}.getType()"},
+		{ "trigger": "ofxOscArg::getTypeName"					,"contents": "${1:ofxOscArg}.getTypeName()"},
 
 		//////////////////////////////
 		// ofxOscArgFloat
-
+		{ "trigger": "ofxOscArgFloat::get"						,"contents": "${1:ofxOscArgFloat}.get()"},
+		{ "trigger": "ofxOscArgFloat::getType"					,"contents": "${1:ofxOscArgFloat}.getType()"},
+		{ "trigger": "ofxOscArgFloat::getTypeName"				,"contents": "${1:ofxOscArgFloat}.getTypeName()"},
+		{ "trigger": "ofxOscArgFloat::set"						,"contents": "${1:ofxOscArgFloat}.set(${2:float _value})"},
 
 		//////////////////////////////
 		// ofxOscArgInt32
-
+		{ "trigger": "ofxOscArgInt32::get"						,"contents": "${1:ofxOscArgInt32}get()"},
+		{ "trigger": "ofxOscArgInt32::getType"					,"contents": "${1:ofxOscArgInt32}getType()"},
+		{ "trigger": "ofxOscArgInt32::getTypeName"				,"contents": "${1:ofxOscArgInt32}getTypeName()"},
+		{ "trigger": "ofxOscArgInt32::set"						,"contents": "${1:ofxOscArgInt32}set(${2:int32_t _value})"},
 
 		//////////////////////////////
 		// ofxOscArgString
-
+		{ "trigger": "ofxOscArgString::get"						,"contents": "${1:ofxOscArgString}.get()"},
+		{ "trigger": "ofxOscArgString::getType"					,"contents": "${1:ofxOscArgString}.getType()"},
+		{ "trigger": "ofxOscArgString::getTypeName"				,"contents": "${1:ofxOscArgString}.getTypeName()"},
+		{ "trigger": "ofxOscArgString::set"						,"contents": "${1:ofxOscArgString}.set(${2:const char *_value})"},
 
 		//////////////////////////////
 		// ofxOscBundle
-
+		{ "trigger": "ofxOscBundle::addBundle"					,"contents": "${1:ofxOscBundle}.addBundle(${2:const ofxOscBundle &element})"},
+		{ "trigger": "ofxOscBundle::addMessage"					,"contents": "${1:ofxOscBundle}.addMessage(${2:const ofxOscMessage &message})"},
+		{ "trigger": "ofxOscBundle::clear"						,"contents": "${1:ofxOscBundle}.clear()"},
+		{ "trigger": "ofxOscBundle::copy"						,"contents": "${1:ofxOscBundle}.copy(${2:const ofxOscBundle &other})"},
+		{ "trigger": "ofxOscBundle::getBundleAt"				,"contents": "${1:ofxOscBundle}.getBundleAt(${2:int i})"},
+		{ "trigger": "ofxOscBundle::getBundleCount"				,"contents": "${1:ofxOscBundle}.getBundleCount()"},
+		{ "trigger": "ofxOscBundle::getMessageAt"				,"contents": "${1:ofxOscBundle}.getMessageAt(${2:int i})"},
+		{ "trigger": "ofxOscBundle::getMessageCount"			,"contents": "${1:ofxOscBundle}.getMessageCount()"},
 
 		//////////////////////////////
 		// ofxOscMessage
-
+		{ "trigger": "ofxOscMessage::addFloatArg"				,"contents": "${1:ofxOscMessage}.addFloatArg(${2:float argument})"},
+		{ "trigger": "ofxOscMessage::addIntArg"					,"contents": "${1:ofxOscMessage}.addIntArg(${2:int32_t argument})"},
+		{ "trigger": "ofxOscMessage::addStringArg"				,"contents": "${1:ofxOscMessage}.addStringArg(${2:string argument})"},
+		{ "trigger": "ofxOscMessage::clear"						,"contents": "${1:ofxOscMessage}.clear()"},
+		{ "trigger": "ofxOscMessage::copy"						,"contents": "${1:ofxOscMessage}.copy(${2:const ofxOscMessage &other})"},
+		{ "trigger": "ofxOscMessage::getAddress"				,"contents": "${1:ofxOscMessage}.getAddress()"},
+		{ "trigger": "ofxOscMessage::getArgAsFloat"				,"contents": "${1:ofxOscMessage}.getArgAsFloat(${2:int index})"},
+		{ "trigger": "ofxOscMessage::getArgAsInt32"				,"contents": "${1:ofxOscMessage}.getArgAsInt32(${2:int index})"},
+		{ "trigger": "ofxOscMessage::getArgAsString"			,"contents": "${1:ofxOscMessage}.getArgAsString(${2:int index})"},
+		{ "trigger": "ofxOscMessage::getArgType"				,"contents": "${1:ofxOscMessage}.getArgType(${2:int index})"},
+		{ "trigger": "ofxOscMessage::getArgTypeName"			,"contents": "${1:ofxOscMessage}.getArgTypeName(${2:int index})"},
+		{ "trigger": "ofxOscMessage::getNumArgs"				,"contents": "${1:ofxOscMessage}.getNumArgs()"},
+		{ "trigger": "ofxOscMessage::getRemoteIp"				,"contents": "${1:ofxOscMessage}.getRemoteIp()"},
+		{ "trigger": "ofxOscMessage::getRemotePort"				,"contents": "${1:ofxOscMessage}.getRemotePort()"},
+		{ "trigger": "ofxOscMessage::setAddress"				,"contents": "${1:ofxOscMessage}.setAddress(${2:string _address})"},
+		{ "trigger": "ofxOscMessage::setRemoteEndpoint"			,"contents": "${1:ofxOscMessage}.setRemoteEndpoint(${2:string host}, ${2:int port})"},
 
 		//////////////////////////////
 		// ofxOscReceiver
-
+		{ "trigger": "ofxOscReceiver::getNextMessage"			,"contents": "${1:ofxOscReceiver}.getNextMessage(${2:ofxOscMessage *})"},
+		{ "trigger": "ofxOscReceiver::hasWaitingMessages"		,"contents": "${1:ofxOscReceiver}.hasWaitingMessages()"},
+		{ "trigger": "ofxOscReceiver::setup"					,"contents": "${1:ofxOscReceiver}.setup(${2:int listen_port})"},
 
 		//////////////////////////////
 		// ofxOscSender
-
+		{ "trigger": "ofxOscSender::sendBundle"					,"contents": "${1:ofxOscSender}.sendBundle(${2:ofxOscBundle &bundle})"},
+		{ "trigger": "ofxOscSender::sendMessage"				,"contents": "${1:ofxOscSender}.sendMessage(${2:ofxOscMessage &message})"},
+		{ "trigger": "ofxOscSender::setup"						,"contents": "${1:ofxOscSender}.setup(${2:std})"},
+		{ "trigger": "ofxOscSender::setup \t(host,port)"		,"contents": "${1:ofxOscSender}.setup(${2:std::string hostname}, ${3:int port})"},
 
 
 		{} // trailing object, don't remove
