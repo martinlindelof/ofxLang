@@ -265,6 +265,16 @@
 		///////////////// ##ofxThreadedImageLoader## ////////////////
 		//////////////////////////////
 		// ofxThreadedImageLoader
+		{ "trigger": "ofxThreadedImageLoader::getEntryFromAsyncQueue"		,"contents": "${1:ofxThreadedImageLoader}.getEntryFromAsyncQueue(${2:string name})"},
+		{ "trigger": "ofxThreadedImageLoader::loadFromDisk"					,"contents": "${1:ofxThreadedImageLoader}.loadFromDisk(${2:ofImage *image}, ${3:string file})"},
+		{ "trigger": "ofxThreadedImageLoader::loadFromURL"					,"contents": "${1:ofxThreadedImageLoader}.loadFromURL(${2:ofImage *image}, ${3:string url})"},
+		{ "trigger": "ofxThreadedImageLoader::start"						,"contents": "${1:ofxThreadedImageLoader}.start()"},
+		{ "trigger": "ofxThreadedImageLoader::threadedFunction"				,"contents": "${1:ofxThreadedImageLoader}.threadedFunction()"},
+		{ "trigger": "ofxThreadedImageLoader::update"						,"contents": "${1:ofxThreadedImageLoader}.update(${2:ofEventArgs &a})"},
+		{ "trigger": "ofxThreadedImageLoader::urlResponse"					,"contents": "${1:ofxThreadedImageLoader}.urlResponse(${2:ofHttpResponse &response})"},
+		{ "trigger": "ofxThreadedImageLoader::images_async_loading"			,"contents": "${1:ofxThreadedImageLoader}.images_async_loading"},
+		{ "trigger": "ofxThreadedImageLoader::images_to_load"				,"contents": "${1:ofxThreadedImageLoader}.images_to_load"},
+		{ "trigger": "ofxThreadedImageLoader::images_to_update"				,"contents": "${1:ofxThreadedImageLoader}.images_to_update"},
 
 		///////////////// ##ofxXmlSettings## ////////////////////
 		//////////////////////////////
